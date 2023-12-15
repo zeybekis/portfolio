@@ -13,10 +13,10 @@
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-card" style="color:white; background: #371f59; border-radius: 0;">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a class="w3-bar-item w3-padding-large"><img style="border-radius: 0;" src="../icons/profilepic.png"><img style="border-radius: 0;" src="../icons/logo.png"></a>
-    <a href="#"style="margin-left: 30px;" class="w3-bar-item w3-button w3-padding-large"><img src="../icons/home.png"></a>
-    <a href="../linktree/linktree.en.html"style="margin-left: 30px;" class="w3-bar-item w3-button w3-padding-large"><img src="../icons/linktree.png"></a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><img style="border-radius:0;" src="../icons/menu.png"></a>
+    <a class="w3-bar-item w3-padding-large"><img style="border-radius: 50%;" src="../icons/profilepic.png"><img style="border-radius: 0;" src="../icons/logo.png"></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large"><img src="../icons/home.png"></a>
+    <a href="../linktree/linktree.en.html" class="w3-bar-item w3-button w3-padding-large"><img src="../icons/linktree.png"></a>
 
      <div class="w3-dropdown-hover">
       <button class="w3-bar-item w3-button w3-padding-large w3-hide-small"> 이력서</button>
@@ -36,7 +36,7 @@
 </div>
 </div>
     <div class="w3-dropdown-hover">
-      <button class="w3-bar-item w3-button w3-padding-large w3-hide-small">동영상 ▶</button>
+      <button class="w3-bar-item w3-button w3-padding-large w3-hide-small">동영상</button>
   <div style="margin-top: 45px;" class="w3-dropdown-content w3-bar-block w3-border">
     <a href="#stopm" class="w3-bar-item w3-button w3-padding-large w3-hide-small">스톱모션</a>
 </div>
@@ -45,14 +45,11 @@
 
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">연락하다</a>
 
-
-
-
-
 <div class="w3-dropdown-hover w3-right">
-  <button style="width: 180px;"class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img style="border-radius: 0;"  src="../icons/krflag.png"> 한국인</button>
-  <div style="width: 370px; margin-left: -170px; margin-top: 45px;"class="w3-dropdown-content w3-bar-block w3-border">
-  <div style="width: 170px;"class=" w3-bar-block">
+  <button style="width: 70px;"class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img style="border-radius: 0;" src="../icons/planet.png"></button>
+  <div style="width: 370px; margin-left: -300px; margin-top: 47px;"class="w3-dropdown-content w3-bar-block w3-border">
+    <p class="w3-center w3-padding-large w3-hide-small w3-bar-item" style="color:yellow; font-size: 15px;  background-color: #320f63; height:50px; border-top-right-radius: 12px;-radius: ; border-top-left-radius: 12px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;"><img style="border-radius: 0;" src="../icons/krflag.png"> 한국인</button>
+  <div style="width: 190px;"class=" w3-bar-block">
     <a href="../index.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../icons/grflag.png"> 그리스 어</a>
     <a href="indexfr.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../icons/frflag.png"> 프렌치</a>
     <a href="indexde.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../icons/deflag.png"> 독일 사람</a>
@@ -63,8 +60,7 @@
     <a href="indexen.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../icons/ukflag.png"> 영어</a>
     <a href="indexcn.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../icons/cnflag.png"> 중국인</a>
     <a href="indexar.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../icons/arflag.png"> 아라비아 말</a>
-
-      </div>
+</div>
     <div style="width: 190px; float: right; margin-top: -392px;"class=" w3-bar-block">
     <a href="indexru.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../icons/ruflag.png"> 러시아인</a>
     <a href="indextr.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../icons/trflag.png"> 터키어</a>
@@ -79,9 +75,85 @@
 </div>
   </div>
 </div>
+
+
+
+
+
+
   </div>
 </div>
 
+  
+</div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:49px;height: 274px; background-color: #371f59;">
+  <div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="color: #3cdbde; background: #371f59; background-color: #371f59;"><img style="border-radius: 0;">이력서</button>
+
+    <div style=" width: 100%; margin-top:0px;  background-color: #410678;" class="subnav-content">
+           
+  <a href="#band" style="color: #3cdbde;"class="w3-button" onclick="myFunction()">경험</a>
+  <a href="#submit"style="color: #3cdbde;" class="w3-button" onclick="myFunction()">기술</a>
+  <a href="#padding"style="color: #3cdbde;" class="w3-button" onclick="myFunction()">교육</a>
+  </div>
+  </div>  
+</div>
+  <div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="color: #3cdbde;background: #371f59; background-color: #371f59;"><img style="border-radius: 0;">사진 갤러리</button>
+    <div style="width: 100%; margin-top:0px;color: #3cdbde; background-color: #410678;" class="subnav-content">
+   
+<a href="#black&white"class="w3-button"style="color: #3cdbde;" onclick="myFunction()">검정, 흰색</a>
+  <a href="#nature"class="w3-button"style="color: #3cdbde;" onclick="myFunction()">자연</a>
+  <a href="#mstr"class="w3-button"style="color: #3cdbde;" onclick="myFunction()">신비</a>
+  <a href="#gnrl"class="w3-button"style="color: #3cdbde;" onclick="myFunction()">다양한 이미지</a>
+
+  </div>
+  </div>  
+</div>
+ <div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="background: #371f59; color: #3cdbde; background-color: #371f59;"><img style="border-radius: 0;">동영상</button>
+    <div style="width: 100%; margin-top:0px; background-color: #410678;" class="subnav-content">
+  <a href="#stopm"class="w3-button" style="color: #3cdbde;" onclick="myFunction()">스톱모션</p></a>
+  </div>
+  </div>  
+</div>
+<div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="background: #371f59; background-color: #371f59;"><img style="border-radius: 0; color: yellow;" src="../icons/krflag.png"><i style="margin-left: 3px; font-style: normal; color:yellow;">KR</i></button>
+    <div style="width: 100%; margin-top:0px; background-color: #410678;" class="subnav-content">
+<a href="../index.html" class="w3-button"><img style="border-radius: 0;" src="../icons/grflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">GR</i></a>
+      <a href="../htmls/indexfr.html" class="w3-button"><img style="border-radius: 0;" src="../icons/frflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">FR</i></a>
+      <a href="../htmls/indexde.html" class="w3-button"><img style="border-radius: 0;" src="../icons/deflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">DE</i></a>
+      <a href="../htmls/indexit.html" class="w3-button"><img style="border-radius: 0;" src="../icons/itflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">IT</i></a>
+      <a href="../htmls/indexes.html" class="w3-button"><img style="border-radius: 0;" src="../icons/esflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">ES</i></a>
+      <a href="../htmls/indexpt.html" class="w3-button"><img style="border-radius: 0;" src="../icons/ptflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">PT</i></a>
+      <a href="../htmls/indexpl.html" class="w3-button"><img style="border-radius: 0;" src="../icons/plflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">PL</i></a>
+      <a href="../htmls/indexjp.html" class="w3-button"><img style="border-radius: 0;" src="../icons/jpflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">JP</i></a>
+      <a href="../htmls/indexen.html" class="w3-button"><img style="border-radius: 0;" src="../icons/ukflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">EN</i></a>
+      <a href="../htmls/indextr.html" class="w3-button"><img style="border-radius: 0;" src="../icons/trflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">TR</i></a>
+      <a href="../htmls/indexcn.html" class="w3-button"><img style="border-radius: 0;" src="../icons/cnflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">CN</i></a>
+      <a href="../htmls/indexar.html" class="w3-button"><img style="border-radius: 0;" src="../icons/arflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">AR</i></a>
+      <a href="../htmls/indexru.html" class="w3-button"><img style="border-radius: 0;" src="../icons/ruflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">RU</i></a>
+      <a href="../htmls/indexhi.html" class="w3-button"><img style="border-radius: 0;" src="../icons/hiflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">IN</i></a>
+      <a href="../htmls/indexse.html" class="w3-button"><img style="border-radius: 0;" src="../icons/seflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">SE</i></a>
+      <a href="../htmls/indexil.html" class="w3-button"><img style="border-radius: 0;" src="../icons/ilflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">IL</i></a>
+      <a href="../htmls/indexua.html" class="w3-button"><img style="border-radius: 0;" src="../icons/uaflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">UA</i></a>
+      <a href="../htmls/indexmt.html" class="w3-button"><img style="border-radius: 0;" src="../icons/mtflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">MT</i></a>
+      <a href="../htmls/indexrs.html" class="w3-button"><img style="border-radius: 0;" src="../icons/rsflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">RS</i></a>
+      <a href="../htmls/indexam.html" class="w3-button"><img style="border-radius: 0;" src="../icons/amflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">AM</i></a>
+
+  </div>
+  </div>  
+</div>
+<div class="w3-center">
+  <a href="#contact"class="w3-button" onclick="myFunction()">연락하다</a>
+</div>
+ 
+</div>
   
 </div>
 
@@ -112,7 +184,7 @@
 </div>
 <div  class="navbar w3-center">
   <div class="subnav">
-    <button class="subnavbtn" style="background: #371f59; background-color: #371f59;"><img style="border-radius: 0;">▶</button>
+    <button class="subnavbtn" style="background: #371f59; background-color: #371f59;"><img style="border-radius: 0;">동영상</button>
     <div style="width: 100%; margin-top:0px; background-color: #410678;" class="subnav-content">
   <a href="#stopm"class="w3-button" onclick="myFunction()">스톱모션</a>
   </div>
@@ -454,9 +526,9 @@
           <h5 style="font-family: play;"><img src="../icons/discord.png"><br><br>친구이자 Discord 회원이신가요?</h5><br>
           <img style="margin-left:20px; margin-top:20px; "src="../icons/ds.png">
 
-            <a href="https://discord.gg/Vp488jcpJ6" target="blank"><br><br><p style="color: #3cdbde; background-color: #371f59; width: 270px;  margin-top:20px;" class="w3-button">내 Discord 서버에 참여하려면<br> 여기를 클릭하세요<br>"Βασικά Είναι Μπλε-Μωβ"<br>KR: "실제로는 코랄블루 넘버에요"</p></a><br><br>또는<br>
+            <a href="https://discord.gg/Vp488jcpJ6" target="blank"><br><br><p style="color: #3cdbde; background-color: #371f59; width: 270px;  margin-top:20px;" class="w3-button">내 Discord 서버에 <br>참여하려면<br> 여기를 <br>클릭하세요<br>"Βασικά Είναι<br> Μπλε-Μωβ"<br>KR: "실제로는 코랄블루<br> 넘버에요"</p></a><br><br>또는<br>
             <img style="margin-left:20px; margin-top:20px; "src="../icons/dp.png">
-            <a href="https://discordapp.com/users/1087647385703960636" target="blank"><br><br><br><p style="background-color: #371f59; color: #3cdbde; width: 190px; margin-top:10px;" class="w3-button">내 Discord 프로필에서<br> 친구 요청을 보내려면<br> 여기를 클릭하세요.<br>@din.zeyb</p></a>
+            <a href="https://discordapp.com/users/1087647385703960636" target="blank"><br><br><br><p style="background-color: #371f59; color: #3cdbde; width: 190px; margin-top:10px;" class="w3-button">내 Discord<br> 프로필에서<br> 친구 요청을 <br>보내려면<br> 여기를 <br>클릭하세요.<br>@din.zeyb</p></a>
         </div>
         <br><br>
 <!-- Footer -->
