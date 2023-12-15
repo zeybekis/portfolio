@@ -498,6 +498,10 @@ window.onclick = function(event) {
   fullImgBox.style.display = "none";
 
  }
+ jQuery("img").on("taphold", function(event) {
+   event.preventDefault();
+   event.stopImmediatePropagation();
+})
 
 </script>
 
