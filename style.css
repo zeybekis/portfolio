@@ -15,7 +15,7 @@
 
 
 div.w3-content{
-
+    -webkit-touch-callout: none;
 }
 div.#band.w3-container.w3-content.w3-center.w3-padding-64{
 
@@ -350,7 +350,7 @@ div.desc {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -367,7 +367,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -385,7 +385,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -400,7 +400,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -414,7 +414,7 @@ img {
 div.w3-content{
 
  background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -429,7 +429,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -445,7 +445,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -461,7 +461,7 @@ img {
 div.w3-content{
 
  background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -476,7 +476,7 @@ img {
 div.w3-content{
 
  background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -493,7 +493,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -508,7 +508,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -524,7 +524,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -540,7 +540,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
@@ -554,7 +554,7 @@ img {
 div.w3-content{
 
   background-color: transparent;
-
+    -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
     background-color: #16042b;
