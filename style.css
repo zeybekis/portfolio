@@ -23,6 +23,13 @@ button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
     text-transform: uppercase;
     color:#3cdbde;
 }
+
+button.w3-button.w3-section.w3-right{
+    background-color: #3cdbde; 
+    color:#371f59; 
+    border-radius: 12px; 
+    padding: 30px;"
+}
 h3.w3-wide{
     font-style: normal;
 }
@@ -61,6 +68,11 @@ a.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
           color: #3cdbde;
 }
 
+
+/* Thick darkcyan border */
+hr {
+  border: 1px solid darkcyan;
+}
 
 h2 {
     text-align: auto;
@@ -117,7 +129,18 @@ button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
     background-color: transparent;
 }
 
-
+p.w3-justify{
+    background-color: #3cdbde; 
+    color:#371f59; 
+    border-radius: 12px; 
+    padding: 30px;"
+}
+p.w3-button{
+    background-color: #3cdbde; 
+    color:#371f59; 
+    border-radius: 12px; 
+    padding: 30px;"
+}
 
 h6
 {
