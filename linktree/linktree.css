@@ -9,7 +9,7 @@ font-family: Play,sans-serif;
 	
 }
 *{
-
+    font-style: normal;
 	color: #fff;
 }
 
@@ -22,11 +22,17 @@ body {
 	background-size: cover;
 	background-image: url(bg_zeybekis_desktop.jpg);
 	background-color: rgba(120, 120, 105, 0.8);
-	colour: rgba(225, 225, 230, 0.9);
+	colour: #3cdbde;
 	 background-repeat: no-repeat; 
 	 background-attachment: fixed; 
 	 background-size: 100% 100%; 
 
+}
+em{
+	color: #3cdbde;
+}
+p{
+	color: #3cdbde;
 }
 
 button {
@@ -51,7 +57,7 @@ color: yellow;
 background-color: purple;
 }
 div.container{
-	background-image: url(../images/transparent.png);
+	background-image: url(../images/transparent1.png);
 	z-index: 100%;
 	margin-top: 20px;
 	height: 100%;
@@ -67,6 +73,7 @@ h2{
 	border-radius: 10px;
 	width: 80%;
 	margin-left: 8%;
+	color: #3cdbde;
 
 }
 h6{
@@ -75,6 +82,7 @@ h6{
 	width: 210px;
 	text-align: center;
 	float: center;
+	color: #3cdbde;
 
 }
 em{
@@ -87,10 +95,10 @@ em{
 ul{
 	list-style: none;
 }
+/* Thick darkcyan border */
 hr {
-color: rgba(255, 255, 230, 0.8);
-width: 100%;
-opacity: 0.3;
+  border: 1px solid darkcyan;
+
 }
 footer {
 font-size: 0.7em;
@@ -104,9 +112,10 @@ font-size: 0.7em;
 	margin-top:1.1em;
 	}
 img {
-	border-radius: 50%;
+	border-radius: 0;
 
 }
+
 #occupation {
 	font-size: 120em;
 }
@@ -117,7 +126,7 @@ img {
 /* Dropdown Button */
 .dropbtn {
   background-color: #17043d;
-  color: white;
+  color: #3cdbde;
   border: none;
   font-family: Play, sans-serif;
   font-size: 15px;
@@ -149,7 +158,7 @@ img {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: yellow;
+  color: #3cdbde;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -167,7 +176,7 @@ img {
 @media (max-width: 850px) {
 body{
 
-    background-color: #1c0845;
+    	background-image: url(bg_zeybekis_mobile.jpg);
 }
 div.container{
 
@@ -187,13 +196,18 @@ h2{
 }
 em{
 	background-color: transparent;
+	color: #3cdbde;
 }
-
+p{
+	color: #3cdbde;
+}
 
 @media (min-width: 851px) and (max-width: 1250px) {
 body{
 
-    background-color: #1c0845;
+
+	background-image: url(bg_zeybekis_tablet.jpg);
+
 
 }
 div.container{
@@ -211,6 +225,10 @@ h2{
 }
 em{
 	background-color: transparent;
+	color: #3cdbde;
+}
+p{
+	color: #3cdbde;
 }
 li{
 	background-color: transparent;
@@ -219,7 +237,7 @@ li{
 @media (min-width: 1251px) {
 body{
 
-    background-color: #1c0845;
+    	background-image: url(bg_zeybekis_desktop.jpg);
 
 }
 h6{
@@ -233,6 +251,10 @@ li{
 }
 em{
 	background-color: transparent;
+	color: #3cdbde;
+}
+p{
+	color: #3cdbde;
 }
 div.container{
 
