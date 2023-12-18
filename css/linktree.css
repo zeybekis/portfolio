@@ -20,7 +20,7 @@ body {
 	letter-spacing: 0,06em;
 	text-align: center;
 	background-size: cover;
-	background-image: url(bg_zeybekis_desktop.jpg);
+	background-image: url('../images/bg_zeybekis_desktop.jpg');
 	background-color: rgba(120, 120, 105, 0.8);
 	colour: #3cdbde;
 	 background-repeat: no-repeat; 
@@ -57,7 +57,7 @@ color: yellow;
 background-color: purple;
 }
 div.container{
-	background-image: url(../images/transparent1.png);
+	background-image: url('../images/transparent1.png');
 	z-index: 100%;
 	margin-top: 20px;
 	height: 100%;
@@ -183,7 +183,7 @@ div.dropdown-content{
 @media (max-width: 850px) {
 body{
 
-    	background-image: url(bg_zeybekis_mobile.jpg);
+    	background-image: url('../images/bg_zeybekis_mobile.jpg');
 }
 div.container{
 
@@ -213,7 +213,7 @@ p{
 body{
 
 
-	background-image: url(bg_zeybekis_tablet.jpg);
+	background-image: url('../images/bg_zeybekis_tablet.jpg');
 
 
 }
@@ -244,7 +244,7 @@ li{
 @media (min-width: 1251px) {
 body{
 
-    	background-image: url(bg_zeybekis_desktop.jpg);
+    	background-image: url('../images/bg_zeybekis_desktop.jpg');
 
 }
 h6{

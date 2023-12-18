@@ -396,12 +396,12 @@ div.videocont{
   color: white;
   padding: 14px 16px;
   width: 120px;
-  background-image: url(images/transparent.png)
+  background-image: url('../images/transparent.png')
 }
 
 /* Add a  background image to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-image: url('images/transparent.png');
+  background-image: url('../images/transparent.png');
 }
 
 /* Style the subnav content - positioned absolute */
