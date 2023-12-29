@@ -347,10 +347,10 @@ div.videocont{
     width: 100%;
     height: 10%;
     background: #3cdbde;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
       text-align: right;
 
 }
@@ -360,8 +360,8 @@ div.videocont{
     top: 0;
     left: 0;
     height: 100%;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     background: #e3e3e3;
