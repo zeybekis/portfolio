@@ -29,7 +29,7 @@ button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
 
 button.w3-button.w3-section.w3-right{
     background-color: #3cdbde; 
-    color:#371f59; 
+    color:#280242; 
     border-radius: 0; 
     padding: 30px;"
 
@@ -121,7 +121,7 @@ h5 {
 p.w3-justify{
     text-align: right;
     align-items: right;
-    color: #371f59;
+    color: #280242;
 
 }
 p{
@@ -171,7 +171,7 @@ button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
 
 p.w3-justify{
     background-color: #3cdbde; 
-    color:#371f59; 
+    color:#280242; 
     border-radius: 0; 
     padding: 30px;
     text-align: right;
@@ -180,7 +180,7 @@ p.w3-justify{
 
 p.w3-button{
     background-color: #3cdbde; 
-    color:#371f59; 
+    color:#280242; 
     border-radius: 0; 
     padding: 30px;"
       text-align: right;
@@ -436,7 +436,7 @@ div.w3-dropdown-content.w3-bar-block.w3-border{
 }
 div.w3-justify{
     background-color: #3cdbde; 
-    color:#371f59; 
+    color:#280242; 
     border-radius: 0; 
     padding: 30px;
     text-align: right;
