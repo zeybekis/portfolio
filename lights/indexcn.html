@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Photozeybekis | 摄影与录像</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="x-icon" href="../light.icons/profilepic.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/light.style.css">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card" style="color:rgb(33, 15, 38); background: #a390e7; border-radius: 0;">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><img style="border-radius:0;" src="../light.icons/menu.png"></a>
+    <a class="w3-bar-item w3-padding-large w3-hide-small"><img style="border-radius: 0%;" src="../light.icons/profilepic.png"><img style="border-radius: 0;" src="../light.icons/light.logo.png"></a>
+
+    <a href="../light.index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="../light.icons/home.png"></a>
+
+    <div class="w3-dropdown-hover">
+      <button class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large"><img src="../light.icons/planet.png"><i style="font-style: normal; color:yellow;"> CN</i></button>
+      <div style=" background-color: #d1b4e5; margin-top: 45px; height: 350px; width: 80%;" class="w3-dropdown-content w3-bar-block w3-border">
+          <li><a href="indexgr.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/grflag.png"><br><i style=" font-style: normal; color:yellow;">GR</i></a>
+          <a href="../lights/indexfr.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/frflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">FR</i></a>
+          <a href="../lights/indexde.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/deflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">DE</i></a>
+          <a href="../lights/indexit.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/itflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">IT</i></a></li>
+
+
+          <li><a href="../lights/indexes.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/esflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">ES</i></a>
+          <a href="../lights/indexpt.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/ptflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">PT</i></a>
+          <a href="../lights/indexpl.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/plflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">PL</i></a>
+          <a href="../lights/indexjp.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/jpflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">JP</i></a></li>
+
+
+
+          <li><a href="../lights/indexkr.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/krflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">KR</i></a>
+          <a href="../lights/indextr.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/trflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">TR</i></a>
+          <a href="../lights/indexen.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/enflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">EN</i></a>
+          <a href="../lights/indexar.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/arflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">AR</i></a></li>
+
+
+          <li></li><a href="../lights/indexru.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/ruflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">RU</i></a>
+          <a href="../lights/indexhi.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/hiflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">IN</i></a>
+          <a href="../lights/indexse.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/seflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">SE</i></a>
+          <a href="../lights/indexhe.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/heflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">HE</i></a></li>
+
+          <li><a href="../lights/indexua.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/uaflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">UA</i></a>
+          <a href="../lights/indexmt.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/mtflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">MT</i></a>
+          <a href="../lights/indexrs.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/rsflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">RS</i></a>
+          <a href="../lights/indexam.html" class="w3-button"><img style="border-radius: 0;" src="../light.icons/amflag.png"><br><i style="margin-left: 3px; font-style: normal; color:yellow;">AM</i></a></li>
+          <li><a style="float: right; " href="../lights/indexcn.html"><img src="../light.icons/back.png"></a></li>
+    
+    </div>
+      </div>  
+    </a>
+    <a href="../light.index.html" style="margin-left: 70px; relative;" class="w3-bar-item w3-padding-large w3-hide-medium w3-hide-large"><img style="border-radius: 0%;" src="../light.icons/profilepic.png"><img style="border-radius: 0;" src="../light.icons/logo.png"></a>
+
+
+     <div class="w3-dropdown-hover">
+      <button class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="../light.icons/cv.png"></button>
+  <div style="margin-top: 45px; background-color: rgba(221, 197, 237, 0.9)" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">经验</a>
+    <a href="#submit" class="w3-bar-item w3-button w3-padding-large w3-hide-small">能力</a>
+    <a href="#padding" class="w3-bar-item w3-button w3-padding-large w3-hide-small">教育</a>
+</div>
+</div>
+<div class="w3-dropdown-hover">
+      <button class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="../light.icons/gall.png"></button>
+  <div style="margin-top: 45px; background-color: rgba(221, 197, 237, 0.9)" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#black&white" class="w3-bar-item w3-button w3-padding-large w3-hide-small">黑与白</a>
+    <a href="#nature" class="w3-bar-item w3-button w3-padding-large w3-hide-small">自然</a>
+    <a href="#mstr" class="w3-bar-item w3-button w3-padding-large w3-hide-small">神秘</a>
+    <a href="#gnrl" class="w3-bar-item w3-button w3-padding-large w3-hide-small">各种图像</a>
+</div>
+</div>
+    <div class="w3-dropdown-hover">
+      <button class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="../light.icons/video.png"></button>
+  <div style="margin-top: 45px; background-color: rgba(221, 197, 237, 0.9)" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#stopm" class="w3-bar-item w3-button w3-padding-large w3-hide-small">间歇性视频</a>
+</div>
+</div>
+
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="../light.icons/social.png"></a>
+    <div class="w3-dropdown-hover w3-right">
+
+      <button style="width: 70px; "class="w3-bar-item w3-button w3-padding-large w3-hide-small" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><img style="border-radius: 0;" src="../light.icons/planet.png"></button>
+      <div style="width: 320px;background-color: rgba(221, 197, 237, 0.9); margin-left: -250px; margin-top: 47px;"class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="../lights/indexgr.html"  class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="../light.icons/grflag.png"> Ελληνικα</a>
+        <a href="../lights/indexen.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="../light.icons/enflag.png"> English </a>
+        <a href="../lights/indexit.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="../light.icons/itflag.png"> Italiano </a>
+        
+        <div class="w3-dropdown-hover">
+
+          
+          <div style="width: 170px; background-color: rgba(221, 197, 237, 0.9)" class="w3-dropdown-content w3-bar-block w3-border">
+            <p class="w3-center w3-padding-large w3-hide-small w3-bar-item" style="color:yellow; font-size: 15px;  background-color: rgba(176, 146, 196, 0.9); height:50px; border-top-right-radius: 0;-radius: ; border-top-left-radius: 0; border-bottom-left-radius: 0; border-bottom-right-radius: 0;"><img style="border-radius: 0;" src="../light.icons/gtr.png"> Google Translate</p>
+          <div style="width: 159px; font-size: 12px;"class=" w3-bar-block">
+            <a href="../lights/indexfr.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/frflag.png"> Français</a>
+            <a href="../lights/indexde.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/deflag.png"> Deutsch</a>
+            <a href="../lights/indexes.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/esflag.png"> Español</a>
+            <a href="../lights/indexpt.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/ptflag.png"> Português</a>
+            <a href="../lights/indextr.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/trflag.png"> Türkçe</a>
+            <a href="../lights/indexjp.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/jpflag.png"> 日本語</a>
+            <a href="../lights/indexkr.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/krflag.png"> 한국인</a>
+            <a style="color: #320f63; background-color: #a390e7"   class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/cnflag.png"> 中国人</a>
+            <a href="../lights/indexar.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/arflag.png"> عربي</a>
+        </div>
+          <div style="width: 159px; float: right; margin-top: -323px; font-size: 12px;"class=" w3-bar-block">
+            <a href="../lights/indexru.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/ruflag.png"> Русский</a>
+            <a href="../lights/indexpl.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/plflag.png"> Polski</a>
+            <a href="../lights/indexhi.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/hiflag.png"> हिंदी</a>
+            <a href="../lights/indexse.html" class="w3-bar-item w3-button"><img style="border-radius: 0;" src="../light.icons/seflag.png"> Svenska</a>
+            <a href="../lights/indexhe.html"  class="w3-bar-item w3-button"><img style=" border-radius: 0;" src="../light.icons/heflag.png"> עִברִית</a>
+            <a href="../lights/indexua.html"  class="w3-bar-item w3-button"><img style=" border-radius: 0;" src="../light.icons/uaflag.png"> українська</a>
+            <a href="../lights/indexmt.html" class="w3-bar-item w3-button"><img style=" border-radius: 0;" src="../light.icons/mtflag.png"> malti</a>
+            <a href="../lights/indexrs.html" class="w3-bar-item w3-button"><img style=" border-radius: 0;" src="../light.icons/rsflag.png"> Српски</a>
+            <a href="../lights/indexam.html" class="w3-bar-item w3-button"><img style=" border-radius: 0;" src="../light.icons/amflag.png"> հայերեն</a>
+        </div>
+          </div>
+        
+        </div>
+  </div>
+</div>
+
+  
+</div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:49px;height: 250px; background-color: rgba(221, 197, 237, 0.9); ">
+  <div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="color: #280242; background: rgba(221, 197, 237, 0.9); background-color: transparent;"><img style="border-radius: 0;"><img src="../light.icons/cv.png"></button>
+
+    <div style=" width: 100%; margin-top:0px;  background-color: #a390e7" class="subnav-content">
+      
+      <a href="../lights/indexcn.html"style=" padding: 5px 5px;" class="w3-button" onclick="myFunction()"><img src="../light.icons/back.png"></a>
+  <a href="#band" style="color: #280242"class="w3-button" onclick="myFunction()">经验</a>
+  <a href="#submit"style="color: #280242" class="w3-button" onclick="myFunction()">能力</a>
+  <a href="#padding"style="color: #280242" class="w3-button" onclick="myFunction()">教育</a>
+
+
+  </div>
+  </div>  
+</div>
+  <div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="color: #280242; background: rgba(221, 197, 237, 0.9); background-color: transparent;"><img style="border-radius: 0;"><img src="../light.icons/gall.png"></button>
+
+
+
+
+
+    <div style=" width: 100%; margin-top:0px;  background-color: #a390e7" class="subnav-content">
+  
+      <a href="../lights/indexcn.html"style=" padding: 5px 5px;" class="w3-button" onclick="myFunction()"><img src="../light.icons/back.png"></a>
+  <a href="#black&white"class="w3-button"style="color: #280242" onclick="myFunction()">黑与白</a>
+<a href="#nature"class="w3-button"style="color: #280242" onclick="myFunction()">自然</a>
+  <a href="#mstr"class="w3-button"style="color: #280242" onclick="myFunction()">神秘</a>
+  <a href="#gnrl"class="w3-button"style="color: #280242" onclick="myFunction()">各种图像</a>
+
+
+  </div>
+  </div>  
+</div>
+ <div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="background: transparent; background-color: transparent"><img src="../light.icons/video.png"></button>
+
+    <div style=" width: 100%; margin-top:0px;  background-color: #a390e7" class="subnav-content">
+<a href="../lights/indexcn.html"style=" padding: 5px 5px;" class="w3-button" onclick="myFunction()"><img src="../light.icons/back.png"></a>
+  <a href="#stopm"class="w3-button" style="color: #280242" onclick="myFunction()">间歇性视频</a>
+
+  </div>
+  </div>  
+</div>
+
+<div class="w3-center">
+  <a href="#contact"class="w3-button" onclick="myFunction()"><img src="../light.icons/social.png"></a>
+</div>
+ 
+</div>
+  
+</div>
+
+
+
+  </div>
+  </div>  
+</div>
+
+ 
+</div>
+  
+</div>
+
+</head>
+<body onContextMenu="return false;">
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:100%; margin-top:48px;  background-image: url('../images/light.backround\ image.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%; color: white;">
+
+   <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+    <img src="../slideshow/bg_zeybekis_desktop1.jpg" style="width:100%; border-radius: 0px;">
+  </div>
+    <div class="mySlides w3-display-container w3-center">
+    <img src="../slideshow/bg_zeybekis_desktop2.jpg" style="width:100%; border-radius: 0px;">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="../slideshow/bg_zeybekis_desktop3.jpg" style="width:100%; border-radius: 0px;">
+  </div>
+    <div class="mySlides w3-display-container w3-center">
+    <img src="../slideshow/bg_zeybekis_desktop4.jpg" style="width:100%; border-radius: 0px;">
+  </div>
+    <div class="mySlides w3-display-container w3-center">
+    <img src="../slideshow/bg_zeybekis_desktop5.jpg" style="width:100%; border-radius: 0px;">
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; background-color: rgba(221, 197, 237, 0.9)" id="band">
+   
+
+    <h2 class="w3-wide" style="font-family: play;">关于我的几句话</h2>
+    <p class="w3-opacity"><i></i></p>
+    <p class="w3-justify" >我的名字是 Constantinos Panayiotis Zeybekis 或 Dinos，我今年 24 岁，住在彼得鲁波利市，我一般从事艺术领域，如艺术保护、绘画、素描、平面设计、摄影、蒙太奇和手工艺品。 我更喜欢画画，我从小就开始画画，一直练习到今天，我可以说这对我在摄影领域也有很大帮助，因为它们有很多共同点，并且把 你正处于灵感和思考的过程中。
+
+我喜欢探索和学习有关摄影的新事物，我有兴趣在专业领域与同事建立良好的关系，因为我喜欢团队合作和合作，我相信凭借善意、微笑和沟通，我们作为摄影师可以取得很多成就。</p>
+<br><br><br><br><br><br>
+<hr><br><br>
+
+<h3 class="w3-wide">专业经验</h3>
+<p class="w3-justify">
+- 2015,2019 - 面包/糖果生产和供应商 - Gardenia Bakery<br>
+- 2019-2021 - 产品发布到 Eshop (Wordpress) - Mediaclub.gr<br>
+- 2019-2021 - 商业摄影 - Stamparisto.gr<br>
+- 2021-2022 - 拍摄儿童派对 -Photometal</p><br><br><br> 
+<i>
+            <div class="about skills w3-wide"  style="font-family: play;" id="submit">
+                <h3>专业技能</h3><br>
+                <div class="box">
+                    <h5>Adobe Photoshop</h5>
+                    <span class="percent">
+                        <div style="width: 75%;"></div>
+                    </span>
+                </div>
+                                <div class="box">
+                    <h5>Adobe Premiere</h5>
+                    <span class="percent">
+                        <div style="width: 60%;"></div>
+                    </span>
+                </div>
+                <div class="box">
+                    <h5>MS Office Word</h5>
+                    <span class="percent">
+                        <div style="width: 65%;"></div>
+                    </span>
+                </div>
+                <div class="box">
+                    <h5>MS Power Point</h5>
+                    <span class="percent">
+                        <div style="width: 55%;"></div>
+                    </span>
+                </div>
+                 <div class="box">
+                    <h5>HTML 和 CSS</h5>
+                    <span class="percent">
+                        <div style="width: 50%;"></div>
+                    </span>
+                </div>
+                 <div class="box">
+                    <h5>线条图</h5>
+                    <span class="percent">
+                        <div style="width: 70%;"></div>
+                    </span>
+                </div>
+                <div class="box">
+                    <h5>素描</h5>
+                    <span class="percent">
+                        <div style="width: 100%;"></div>
+                    </span>
+                </div>
+                               <div class="box">
+                    <h5>绘画</h5>
+                    <span class="percent">
+                        <div style="width: 100%;"></div>
+                    </span>
+                </div>
+            </div>
+<br><br><br><br><br><br>
+<hr><br><br>
+<h3 class="w3-wide">兴趣</h3>
+<p class="w3-justify">
+ 绘画,  摄影, 照片编辑, 视频编辑、蒙太奇, 素描</p><br><br><br> 
+<i>
+    <br><br><br>
+<hr><br><br>
+<h3 class="w3-wide">能力</h3>
+<p class="w3-justify">
+- 可以使用 Windows 和 Macintosh<br>
+- 组织<br>
+- 适应<br>
+- 典型<br>
+- 良好的时间管理<br> 
+- 可以使用 Mitsubishi、DNP、Epson Stylus Photo T50 和 Epson L3251 打印机  </p>
+<i><br><br><br>
+    <br><br><br>
+<hr><br><br>
+<div class="about skills w3-wide"  style="font-family: play;" id="padding">
+                <h3>教育</h3><br>
+
+                 <h5>UNI.WA 的摄影和视听艺术</h5>
+                <div class="box">
+                  <h5><img src="../light.icons/shat.png"></h5>
+                    <span class="percent">
+                        <div style="width: 75%;"></div>
+
+                      </span>
+                </div>
+                <h5>彼得鲁波利市技术高中 (Epal) 的古代艺术品保护</h5>
+                                <div class="box">
+                                  <h5><img src="../light.icons/shat.png"></h5>
+                    <span class="percent">
+                        <div style="width: 80%;"></div>
+                    </span>
+                </div>
+                 <h5>Tsigris 和 Beltekos 私人课程中的一般素描</h5>
+                <div class="box">
+                    <h5><img src="../light.icons/shat.png"></h5>
+                    <span class="percent">
+
+                        <div style="width: 100%;"></div>
+                    </span>
+                </div>
+                      <h5>英语知识水平B2</h5>
+                <div class="box">
+                  <h5><img src="../light.icons/shat.png"></h5>
+                    <span class="percent">
+                        <div style="width: 70%;"></div>
+                    </span>
+                </div>
+                                    <h5>意大利语知识水平 B2</h5>
+                 <div class="box">
+                               <h5><img src="../light.icons/shat.png"></h5>
+                    <span class="percent">
+                        <div style="width: 65%;"></div>
+                    </span>
+                </div>
+<i>
+    <br><br><br>
+<hr><br><br>
+
+
+<br><br><br><br><br><br>
+  <h5 class="w3-justify w3-center" style="background-color: #a390e7; color:#280242; border-radius: 0; padding: 30px;" id="black&white">主题：黑与白</h5>
+  <div class="full-img" id="fullImgBox">
+    <img src="../bw/1.png" id="fullImg">
+    <span onclick="closeFullImg()"><img src="../light.icons/x.png"></span>
+  </div>
+  <div class="img-gallery">
+    <a><img src="../bw/1.png" onclick="openFullImg(this.src)">重生</a>
+    <a><img src="../bw/2.png" onclick="openFullImg(this.src)">污染</a>
+    <a><img src="../bw/3.png" onclick="openFullImg(this.src)">恐怖</a>
+    <a><img src="../bw/4.png" onclick="openFullImg(this.src)">寻找</a>
+    <a><img src="../bw/5.png" onclick="openFullImg(this.src)">关心</a>
+    <a><img src="../bw/6.png" onclick="openFullImg(this.src)">历史</a>
+    <a><img src="../bw/7.png" onclick="openFullImg(this.src)">逃脱</a>
+    <a><img src="../bw/8.png" onclick="openFullImg(this.src)">僵局</a>
+    <a><img src="../bw/9.png" onclick="openFullImg(this.src)">永不放弃</a>
+  </div>
+  <br><br><br><br><br><br>
+  <br><br><br>
+<hr><br><br>
+  <h5 class="w3-justify w3-center" style="background-color: #a390e7; color:#280242; border-radius: 0; padding: 30px;" id="nature">主题：自然</h5>
+  <div class="full-img" id="fullImgBox">
+    <img src="../bw/1.png" id="fullImg">
+    <span onclick="closeFullImg()"><img src="../light.icons/x.png"></span>
+  </div>
+  <div class="img-gallery">
+    <a><img src="../nt/1.jpg" onclick="openFullImg(this.src)">统治</a>
+    <a><img src="../nt/2.jpg" onclick="openFullImg(this.src)">保护</a>
+    <a><img src="../nt/3.jpg" onclick="openFullImg(this.src)">步行</a>
+    <a><img src="../nt/4.jpg" onclick="openFullImg(this.src)">障碍</a>
+    <a><img src="../nt/5.jpg" onclick="openFullImg(this.src)">使困惑</a>
+    <a><img src="../nt/6.jpg" onclick="openFullImg(this.src)">荒野</a>
+    <a><img src="../nt/7.jpg" onclick="openFullImg(this.src)">无穷</a>
+    <a><img src="../nt/8.jpg" onclick="openFullImg(this.src)">搜索</a>
+  </div>
+  <br><br><br><br><br><br>
+  <br><br><br>
+<hr><br><br>
+  <h5 class="w3-justify w3-center" style="background-color: #a390e7; color:#280242; border-radius: 0; padding: 30px;" id="mstr">主题：神秘</h5>
+  <div class="full-img" id="fullImgBox">
+    <img src="../bw/1.png" id="fullImg">
+    <span onclick="closeFullImg()"><img src="../light.icons/x.png"></span>
+  </div>
+  <div class="img-gallery">
+    <a><img src="../mstr/1.png" onclick="openFullImg(this.src)">希望</a>
+    <a><img src="../mstr/2.png" onclick="openFullImg(this.src)">好奇心</a>
+    <a><img src="../mstr/3.png" onclick="openFullImg(this.src)">失明</a>
+    <a><img src="../mstr/4.png" onclick="openFullImg(this.src)">氧</a>
+    <a><img src="../mstr/5.png" onclick="openFullImg(this.src)">商圈</a>
+    <a><img src="../mstr/6.png" onclick="openFullImg(this.src)">落下</a>
+    <a><img src="../mstr/7.png" onclick="openFullImg(this.src)">等待</a>
+    <a><img src="../mstr/8.png" onclick="openFullImg(this.src)">孤独</a>
+  </div>
+  <br><br><br><br><br><br>
+  <br><br><br>
+<hr><br><br>
+  <h5 class="w3-justify w3-center" style="background-color: #a390e7; color:#280242; border-radius: 0; padding: 30px;" id="gnrl">主题：各种</h5>
+  <div class="full-img" id="fullImgBox">
+    <img src="../bw/1.png" id="fullImg">
+    <span onclick="closeFullImg()"><img src="../light.icons/x.png"></span>
+  </div>
+  <div class="img-gallery">
+    <a><img src="../gnk/1.jpg" onclick="openFullImg(this.src)">自由</a>
+    <a><img src="../gnk/2.jpg" onclick="openFullImg(this.src)">地铁站 蒙纳斯提拉奇</a>
+    <a><img src="../gnk/3.jpg" onclick="openFullImg(this.src)">禁忌之爱</a>
+    <a><img src="../gnk/4.jpg" onclick="openFullImg(this.src)">美好的过去</a>
+    <a><img src="../gnk/5.jpg" onclick="openFullImg(this.src)">飞</a>
+
+    <a><img src="../gnk/7.jpg" onclick="openFullImg(this.src)">W不退货</a>
+
+
+    <a><img src="../gnk/11.jpg" onclick="openFullImg(this.src)">紫罗兰气息</a>
+        <a><img src="../gnk/16.jpg" onclick="openFullImg(this.src)">蓝色共鸣</a>
+            <a><img src="../gnk/20.jpg" onclick="openFullImg(this.src)">黄色共鸣</a>
+    <a><img src="../gnk/12.jpg" onclick="openFullImg(this.src)">爱神日落</a>
+
+    <a><img src="../gnk/14.jpg" onclick="openFullImg(this.src)">你看起来什么？</a>
+    <a><img src="../gnk/15.jpg" onclick="openFullImg(this.src)">这是我的，我的！</a>
+
+    <a><img src="../gnk/17.jpg" onclick="openFullImg(this.src)">赎回</a>
+
+    <a><img src="../gnk/22.jpg" onclick="openFullImg(this.src)">家庭</a>
+
+    <a><img src="../gnk/24.jpg" onclick="openFullImg(this.src)">熟人的出现</a>
+
+    <a><img src="../gnk/26.jpg" onclick="openFullImg(this.src)">神圣的安慰</a>
+
+    <a><img src="../gnk/29.jpg" onclick="openFullImg(this.src)">城市之光与爱</a>
+
+    <a><img src="../gnk/31.png" onclick="openFullImg(this.src)">抬起头</a>
+    <a><img src="../gnk/32.png" onclick="openFullImg(this.src)">这是我的！</a>
+    <a><img src="../gnk/33.png" onclick="openFullImg(this.src)">啤酒和公司</a>
+    <a><img src="../gnk/34.png" onclick="openFullImg(this.src)">不败的爱</a>
+    <a><img src="../gnk/35.png" onclick="openFullImg(this.src)">请太阳不要走！</a>
+
+    <a><img src="../gnk/37.png" onclick="openFullImg(this.src)">把我留在那里！</a>
+
+    <a><img src="../gnk/40.png" onclick="openFullImg(this.src)">我的第二个家</a>
+    <a><img src="../gnk/41.png" onclick="openFullImg(this.src)">机不可失，时不再来！</a>
+    <a><img src="../gnk/42.png" onclick="openFullImg(this.src)">一只可爱的鸭子</a>
+        <a><img src="../gnk/10.jpg" onclick="openFullImg(this.src)">办公室及公司</a>
+          <a><img src="../gnk/13.jpg" onclick="openFullImg(this.src)">只和你在一起</a>
+           <a><img src="../gnk/19.jpg" onclick="openFullImg(this.src)">罗斯·曼辛</a>
+               <a><img src="../gnk/39.png" onclick="openFullImg(this.src)">我等得太久了！</a>
+
+
+            <a><img src="../gnk/18.jpg" onclick="openFullImg(this.src)">德贾武...</a>
+                    <a><img src="../gnk/25.jpg" onclick="openFullImg(this.src)">从....</a>
+                        <a><img src="../gnk/28.jpg" onclick="openFullImg(this.src)">即兴创作...</a>
+
+        <a><img src="../gnk/30.jpg" onclick="openFullImg(this.src)">....针孔相机</a>
+                                   <a><img src="../gnk/36.png" onclick="openFullImg(this.src)">好心</a>
+                                                   <a><img src="../gnk/9.jpg" onclick="openFullImg(this.src)">死去的爱</a>
+
+            <a><img src="../gnk/27.jpg" onclick="openFullImg(this.src)">生命之树</a>
+
+
+                            <a><img src="../gnk/38.png" onclick="openFullImg(this.src)">榆树街</a>
+
+      <a><img src="../gnk/8.jpg" onclick="openFullImg(this.src)">走啊走</a>
+          <a><img src="../gnk/21.jpg" onclick="openFullImg(this.src)">心灵的微笑</a>
+
+
+            </div><br>
+            <br><br><br>
+<hr><br><br>
+
+
+
+  <h5 class="w3-justify w3-center" style="background-color: #a390e7; color:#280242; border-radius: 0; padding: 30px;" id="stopm">间歇性视频</h5><br>
+
+
+<video width="320" height="240" poster="../video/coffee.jpg" controls>
+  <source src="../video/coffee.mp4" type="video/mp4">
+您的浏览器不支持视频标签。
+</video>  
+    <p>Melitta 广告 - 咖啡机过滤器</p>
+   
+
+
+
+
+
+<br><br><br>
+<hr><br><br>
+
+
+  
+  
+
+  <br><br><br>
+      <h2 class="w3-wide w3-center" style="font-family: play;"  id="contact">社交媒体</h2>
+      <br><br>
+  <div class="w3-container" style="font-family: play;">
+      <a href="https://www.facebook.com/constantine.zeybek" target="blank"><img src="../light.icons/facebook.png"></a></i></a>
+      <a href="https://www.instagram.com/constantinos.zeybekis/" target="blank"><img src="../light.icons/instagram.png"></a></i></a>
+      <a href="https://twitter.com/conzbk" target="blank"><img src="../light.icons/twitter.png"></a></i></a>
+      <a href="https://www.tiktok.com/@constantinos.zeyb" target="blank"><img src="../light.icons/tiktok.png"></a></i></a>
+      <a href="https://discord.gg/Vp488jcpJ6" target="blank"><img src="../light.icons/minidiscord.png"></a></i></a>
+        </div> 
+        <br><br>
+        <div class="w3-container" style="font-family: play;">
+          <a href="https://discordapp.com/users/1087647385703960636" target="blank"><h5 style="font-family: play;  text-transform: none;"><img src="../light.icons/discord.png"></h5></a>
+        </div><br><br><br><br>
+        <a href="../htmls/indexcn.html"><img src="../light.icons/dark.png"></a><br><p>切换到深色模式</p>
+<hr><br><br>
+    
+<!-- Footer -->
+<footer class="w3-container w3-center w3-opacity w3-xlarge" style="font-family: play;">
+<p class="w3-medium" style="font-family: play;">模板来自 <a style="font-family: play;" href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p class="w3-medium" style="font-family: play;">康斯坦丁诺斯·泽贝基斯编辑</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</div>
+
+</div>
+
+<script>
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+
+ function openFullImg(pic){
+  fullImgBox.style.display = "flex";
+  fullImg.src = pic;
+ }
+ function closeFullImg(){
+  fullImgBox.style.display = "none";
+
+ }
+
+</script>
+
+</body>
+</html>
