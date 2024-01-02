@@ -1,6 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
   *{
-  border-radius: 0;
+  border-radius: 10px;
   font-family: play;
   color: rgb(34, 17, 37);
   padding: 0;
@@ -21,15 +21,17 @@ a.w3-bar-item.w3-button.w3-padding-large img{
     border-radius: 0;
 }
 
+
 button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
     text-transform: uppercase;
     color:#154849;
+
 }
 
 button.w3-button.w3-section.w3-right{
     background-color: #a390e7; 
     color:#280242; 
-    border-radius: 0; 
+    border-radius: 10px; 
     padding: 30px;"
 }
 h3.w3-wide{
@@ -135,13 +137,13 @@ button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
 p.w3-justify{
     background-color: #a390e7; 
     color:#280242; 
-    border-radius: 0; 
+    border-radius: 10px; 
     padding: 30px;"
 }
 p.w3-button{
     background-color: #a390e7; 
     color:#280242; 
-    border-radius: 0; 
+    border-radius: 10px; 
     padding: 30px;"
 }
 
@@ -170,7 +172,7 @@ div.videocont{
     width: 90%;
     margin-left: 15px;
     position: relative;
-    border-radius: 0;
+    border-radius: 10px;
     overflow: hidden;
 }
 .small-img-row{
@@ -178,7 +180,7 @@ div.videocont{
     background: #efefef;
     margin: 20px 0;
     align-items: center;
-    border-radius: 0;
+    border-radius: 10px;
     overflow: hidden;
     width: 120%;
     height: 110px;
@@ -187,7 +189,7 @@ div.videocont{
     display: flex;
     background: #a390e7;
     align-items: center;
-    border-radius: 0;
+    border-radius: 10px;
     overflow: hidden;
         width: 110%;
         height: 370px;
@@ -294,7 +296,7 @@ div.videocont{
     width: 100%;
     height: 10%;
     background: #a390e7;
-    border-radius: 0;
+    border-radius: 10px;
 }
 .about.skills .box .percent div
 {
@@ -406,7 +408,7 @@ div.desc {
 }
 .img-gallery img:hover{
   transform: scale(0.8) rotate(-15deg);
-  border-radius: 0;
+  border-radius: 10px;
   box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
 }
 .full-img{
