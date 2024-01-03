@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en"  onContextMenu="return false;">
+<head>
+    <title>Photozeybekis  | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="x-icon" href="icons/profilepic.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card" style="color:white; background: #180128; border-radius: 0;">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><img style="border-radius:0;" src="icons/menu.png"></a>
+    <a class="w3-bar-item w3-padding-large"><img style="border-radius: 50%;" src="icons/profilepic.png"><img style="border-radius: 0;" src="icons/logo.png"></a>
+
+    <a href="light.index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large"><img src="icons/light2.png"></a>
+    <a href="old/old.index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large"><img src="icons/business.png"></a>
+
+    
+
+
+     <div class="w3-dropdown-hover">
+      <button class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="icons/cv.png"></button>
+  <div style="margin-top: 45px;" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">στην κορυφή/ at the top</a>
+    <a href="#submit" class="w3-bar-item w3-button w3-padding-large w3-hide-small">δεξιοτητες/ Abilities</a>
+    <a href="#padding" class="w3-bar-item w3-button w3-padding-large w3-hide-small">σπουδες/ education</a>
+</div>
+</div>
+<div class="w3-dropdown-hover">
+      <button class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="icons/gall.png"></button>
+  <div style="margin-top: 45px;" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#black&white" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ασπρομαυρο/ black and white</a>
+    <a href="#nature" class="w3-bar-item w3-button w3-padding-large w3-hide-small">φυση/ nature</a>
+    <a href="#mstr" class="w3-bar-item w3-button w3-padding-large w3-hide-small">μυστηριο/ mystery</a>
+    <a href="#gnrl" class="w3-bar-item w3-button w3-padding-large w3-hide-small">διαφορα/ various images</a>
+</div>
+</div>
+    <div class="w3-dropdown-hover">
+      <button class="w3-bar-item w3-button w3-padding-large w3-hide-small"><img src="icons/video.png"></button>
+  <div style="margin-top: 45px;" class="w3-dropdown-content w3-bar-block w3-border">
+    <a href="#stopm" class="w3-bar-item w3-button w3-padding-large w3-hide-small">διακοπτομενο βιντεο/ stop motion</p></a>
+</div>
+</div>
+
+
+    <a href="light.index.html"  class=" w3-bar-item w3-button w3-padding-large w3-hide-small"><img  src="icons/light2.png"></a>
+    <a href="old/old.index.html"  class=" w3-bar-item w3-button w3-padding-large w3-hide-small"><img  src="icons/business.png"></a>
+    <div class="w3-dropdown-hover w3-right">
+
+      
+</div>
+
+  
+</div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:49px;height: 250px; background-color: #280242; "><br>
+  <div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="color: #3cdbde; background: #05051d; background-color: #05051d;"><img style="border-radius: 0;"><img src="icons/cv.png"></button>
+
+    <div style=" width: 100%; margin-top:0px;  background-color: #410678;" class="subnav-content">
+
+      <a href="../htmls/main.html"style=" padding: 5px 5px;" class="w3-button" onclick="myFunction()"><img src="icons/back.png"></a>
+  <a href="#band" style="color: #3cdbde;"class="w3-button" onclick="myFunction()">στην κορυφη/ at the top</a>
+  <a href="#submit"style="color: #3cdbde;" class="w3-button" onclick="myFunction()">δεξιοτητες/ Abilities</a>
+  <a href="#padding"style="color: #3cdbde;" class="w3-button" onclick="myFunction()">σπουδες/ education</a>
+
+
+  </div>
+  </div>  
+</div>
+<br>
+  <div  class="navbar w3-center">
+  <div class="subnav">
+    
+    <button class="subnavbtn" style="color: #3cdbde;background: #05051d; background-color: #05051d;"><img style="border-radius: 0;"><img src="icons/gall.png"></button>
+
+
+
+
+
+    <div style="width: 100%; margin-top:0px;color: #3cdbde; background-color: #410678;" class="subnav-content">
+      <p style="color: yellow;">γκαλλερι εικονων/ photo gallery</p>
+      <a href="../htmls/main.html"style=" padding: 5px 5px;" class="w3-button" onclick="myFunction()"><img src="icons/back.png"></a>
+  <a href="#black&white"class="w3-button"style="color: #3cdbde;" onclick="myFunction()">ασπρομαυρο/ black and white</a>
+<a href="#nature"class="w3-button"style="color: #3cdbde;" onclick="myFunction()">φυση/ nature</a>
+  <a href="#mstr"class="w3-button"style="color: #3cdbde;" onclick="myFunction()">μυστηριο/ mystery</a>
+  <a href="#gnrl"class="w3-button"style="color: #3cdbde;" onclick="myFunction()">διαφορα/ various images</a>
+
+
+  </div>
+  </div>  
+</div>
+<br>
+ <div  class="navbar w3-center">
+  <div class="subnav">
+    <button class="subnavbtn" style="background: #05051d; color: #3cdbde; background-color: #05051d;"><img src="icons/video.png"></button>
+
+    <div style="width: 100%; margin-top:0px; background-color: #410678;" class="subnav-content">
+<a href="../htmls/main.html"style=" padding: 5px 5px;" class="w3-button" onclick="myFunction()"><img src="icons/back.png"></a>
+  <a href="#stopm"class="w3-button" style="color: #3cdbde;" onclick="myFunction()">διακοπτομενο βιντεο/ stop motion</a>
+
+  </div>
+  </div>  
+</div>
+
+
+ 
+</div>
+  
+</div>
+
+
+
+  </div>
+  </div>  
+</div>
+
+ 
+</div>
+  
+</div>
+
+</head>
+<body>
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:100%; margin-top:48px;  background-image: url('images/backround image.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%; color: white;">
+
+
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; background-color: rgba(40, 2, 66, 0.9)" id="band">
+
+
+
+       <!-- Automatic Slideshow Images -->
+       <div class="mySlides w3-display-container w3-center">
+        <img src="slideshow/dark/bg_zeybekis_desktop1.jpg" style="width:40%;   border-radius: 50%;">
+      </div>
+        <div class="mySlides w3-display-container w3-center">
+        <img src="slideshow/dark/bg_zeybekis_desktop2.jpg" style="width:40%;   border-radius: 50%;">
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img src="slideshow/dark/bg_zeybekis_desktop3.jpg" style="width:40%;   border-radius: 50%;">
+      </div>
+        <div class="mySlides w3-display-container w3-center">
+        <img src="slideshow/dark/bg_zeybekis_desktop4.jpg" style="width:40%;   border-radius: 50%;">
+      </div>
+        <div class="mySlides w3-display-container w3-center">
+        <img src="slideshow/dark/bg_zeybekis_desktop5.jpg" style="width:40%;   border-radius: 50%;">
+      </div>
+
+
+<br><br>
+
+      <h2>Κωνσταντινος</h2><h2>Παναγιωτης</h2><h2> Ζεϊμπεκης</h2><br><br><h5 style="color: #3cdbde;">Φωτογραφος</h5><h5 style="color: #3cdbde;">Ζωγραφος</h5><h5 style="color: #3cdbde;">Μοντερ</h5><br><h5 style="color: #3cdbde;">Συντηρητης<br> Αρχαιοτητων<br>& Εργων Τεχνης</h5><img style="width: 100%;" src="icons/line.png"><h2>Constantinos</h2><h2>Panayiotis</h2><h2> Zeybekis</h2><br><br>
+    
+    
+      <h5 style="color: #3cdbde;">Photographer</h5><h5 style="color: #3cdbde;">Painter</h5><h5 style="color: #3cdbde;">Monteur</h5><br><h5 style="color: #3cdbde;">Conservator<br>Of ancient<br>Artworks</h5>
+    </ul>
+  </header><br><img style="width: 100%;" src="icons/line.png">
+  <h3>Linktree<br><img src="icons/linktree.png"></h3><br>
+  <main id="weblinks"><br>
+
+  <img src="icons/facebook.png"><br><br>
+      <li><button class="w3-button" style="background-color: #410678; color: #3cdbde; text-transform: uppercase;"><a style="text-decoration: none;" href="https://www.facebook.com/constantine.zeybek" target="_blank"> Facebook</a></button></li><br><br>
+  <img src="icons/instagram.png"><br><br>
+      <li><button class="w3-button" style="background-color: #410678; color: #3cdbde; text-transform: uppercase;"><a style="text-decoration: none;" href="https://www.instagram.com/constantinos.zeybekis/" target="_blank"> Instagram</a></button></li><br><br>
+  <img src="icons/twitter.png"><br><br>
+      <li><button class="w3-button" style="background-color: #410678; color: #3cdbde; text-transform: uppercase;"><a style="text-decoration: none;" href="https://twitter.com/conzbk" target="_blank">Twitter</a></button></li><br><br>
+  <img src="icons/tiktok.png"><br><br>		
+      <li><button class="w3-button" style="background-color: #410678; color: #3cdbde; text-transform: uppercase;"><a style="text-decoration: none;" href="https://www.tiktok.com/@constantinos.zeyb" target="_blank">Tik Tok</a></button></li><br><br>
+  <img src="icons/minidiscord.png"><br><br>
+      <li><button class="w3-button" style="background-color: #410678; color: #3cdbde; text-transform: uppercase;"><a style="text-decoration: none;" href="https://discordapp.com/users/1087647385703960636" target="_blank">Discord Profile</a></button></li><br><br>
+  <img src="icons/minidiscord.png"><br><br>	
+      <li><button class="w3-button" style="background-color: #410678; color: #3cdbde; text-transform: uppercase;"><a style="text-decoration: none;" href="https://discord.gg/Vp488jcpJ6" target="_blank">Discord Server</a></button></li><br>
+      </ul>
+  </main>
+  <br><img style="width: 100%;" src="icons/line.png">
+
+  <h3>εισαγωγη <img style="border-radius: 0;" src="icons/grflag.png"></h3><br><br>
+
+  <h2 class="w3-wide" style="font-family: play; font-size: 20px;">Καλως ορισατε στην σελιδα εισαγωγης photozeybekis</h2>
+  <p class="w3-opacity"><i></i></p>
+  <p class="w3-justify">Αυτή η σελίδα είναι Portfolio που περιέχει βιογραφικό και webgallery εικόνων και βίντεο του καλλιτέχνη Ζεϊμπέκη Κωνσταντίνου Παναγιώτη καθώς επίσης η σελίδα φτιάχτηκε από τον ίδιο με γλώσσα προγραμματισμού HTML και CSS.
+  Παρακαλώ συνεχίστε την εξερεύνηση και ελπίζω να απολαύσετε τις δουλειές του καλλιτέχνη</p><br><br>
+  
+  <br><br><br>
+
+  <h3>Introduction <img style="border-radius: 0;" src="icons/enflag.png"></h3><br><br>
+  <h2 class="w3-wide" style="font-family: play; font-size: 20px;">welcome to Introduction page of photozeybekis</h2>
+  <p class="w3-opacity"><i></i></p>
+  <p class="w3-justify">This Portfolio Webpage contains CV and webgallery of media like images and videos from artist Constantinos Panayiotis Zeybekis, he created this page with programming languages HTML and CSS as well.
+  Please proceed the exploration and we hope you enjoy the artist's artworks</p>
+
+  <br><br>
+    <br><br><br><img style="width: 100%;" src="icons/line.png">
+
+    <br><br><br>
+
+    <br><br> 
+    
+
+    
+
+    <h2 class="w3-wide" style="font-family: play;">Λιγα λογια για μενα</h2>
+    <p  style="text-transform: uppercase; color:gold;">Few words about me</p><br>
+    <p class="w3-justify">Ονομάζομαι Κωνσταντίνος Παναγιώτης Ζεϊμπέκης η αλλιώς Ντίνος, Είμαι 24 ετών από την Πετρούπολη, Aσχολούμαι γενικότερα με τον καλλιτεχνικό τομέα, όπως με συντήρηση έργων τέχνης, ζωγραφική, σχέδιο, γραφιστικά, φωτογραφία, μοντάζ και χειρονακτικά. Μου αρέσει πολύ περισσότερο η ζωγραφική, ασχολούμαι από παιδί με το σχέδιο και εξασκούμαι μέχρι σήμερα, μπορώ να πω ότι με βοήθησε πολύ και στον τομέα της φωτογραφίας γιατί έχουν πολλά κοινά και σε βάζουν σε διαδικασία έμπνευσης και σκέψης.
+
+Μου αρέσει να εξερευνώ και να μαθαίνω νέα πράγματα πάνω στην φωτογραφία, ενδιαφέρομαι να έχω καλές σχέσεις επάνω στον επαγγελματικό τομέα με συναδέλφους γιατί μου αρέσει η ομαδικότητα και η συνεργασία, πιστεύω πως με καλή θέληση, χαμόγελο και επικοινωνία μπορούμε σαν φωτογράφοι να καταφέρουμε πολλά.<br><br><br><br>My name is Constantinos Panayiotis Zeybekis or Dinos, I'm 24yo and i live in Petroupoli City, I am generally involved in the artistic field, such as art conservation, painting, drawing, graphic design, photography, montage and handicrafts. I like painting a lot more, I have been involved in drawing since I was a child and I practice to this day, I can say that it helped me a lot in the field of photography as well because they have a lot in common and put you in a process of inspiration and thinking.
+
+I like to explore and learn new things about photography, I am interested in having good relationships in the professional field with colleagues because I like teamwork and cooperation, I believe that with goodwill, a smile and communication we can achieve a lot as photographers.</p>
+<br><br><br>
+<img style="width: 100%;" src="icons/line.png"><br><br>
+<h3 class="w3-wide">Επαγγελματικη Εμπειρια</h3>
+<p  style="text-transform: uppercase; color:gold">professional Experience</p><br>
+<p class="w3-justify">
+- 2015,2019 - Παραγωγή Άρτου/Γλυκού & Πώληση Προϊόντων - Η Γαρδένια<br>
+- 2019-2021 - Καταχώρηση Προϊόντων σε Eshop (Wordpress) - Mediaclub.gr<br>
+- 2019-2021 - Φωτογράφιση Προϊόντων για Διαφήμιση - Stampariseto.gr<br>
+- 2021-2022 - Φωτογράφιση Παιδικών Πάρτυ, Πώληση Προϊόντων - Photometal<br><br><br>
+- 2015,2019 - Bread/Sweet Production & Vendor - Gardenia Bakery<br>
+- 2019-2021 - Product Posting to Eshop (Wordpress) - Mediaclub.gr<br>
+- 2019-2021 - Commercial Photoshooting - Stampariseto.gr<br>
+- 2021-2022 - Photoshooting Childen Parties - Photometal</p><br><br><br> 
+<i>
+  <img style="width: 100%;" src="icons/line.png"><br><br>
+            <div class="about skills w3-wide"  style="font-family: play; color: #3cdbde;" id="submit">
+                <h3>Επαγγελματικες Δεξιοτητες</h3><br>
+                <p  style="text-transform: uppercase; color:gold;">professional Skills</p><br>
+                <div class="box">
+                    <h5 style="color: #3cdbde;">Adobe Photoshop</h5>
+                    <span class="percent">
+                        <div style="width: 75%;"></div>
+                    </span>
+                </div>
+                                <div class="box">
+                    <h5 style="color: #3cdbde;">Adobe Premiere</h5>
+                    <span class="percent">
+                        <div style="width: 60%;"></div>
+                    </span>
+                </div>
+                <div class="box">
+                    <h5 style="color: #3cdbde;">MS Office Word</h5>
+                    <span class="percent">
+                        <div style="width: 65%;"></div>
+                    </span>
+                </div>
+                <div class="box">
+                    <h5 style="color: #3cdbde;">MS Power Point</h5>
+                    <span class="percent">
+                        <div style="width: 55%;"></div>
+                    </span>
+                </div>
+                 <div class="box">
+                    <h5 style="color: #3cdbde;">HTML & CSS</h5>
+                    <span class="percent">
+                        <div style="width: 50%;"></div>
+                    </span>
+                </div><br><br>
+                <p style="color: gold;">GR</p>
+                 <div class="box">
+                    <h5 style="color: #3cdbde;">Γραμμικο Σχεδιο</h5>
+                    <span class="percent">
+                        <div style="width: 70%;"></div>
+                    </span>
+                </div>
+                <div class="box">
+                    <h5 style="color: #3cdbde;">Ελευθερο Σχεδιο</h5>
+                    <span class="percent">
+                        <div style="width: 100%;"></div>
+                    </span>
+                </div>
+                               <div class="box">
+                    <h5 style="color: #3cdbde;">Ζωγραφικη</h5>
+                    <span class="percent">
+                        <div style="width: 100%;"></div>
+                    </span>
+                </div><br><br>
+                <p style="color: gold;">EN</p>
+                <div class="box">
+                    <h5 style="color: #3cdbde;">line drawing</h5>
+                    <span class="percent">
+                        <div style="width: 70%;"></div>
+                    </span>
+                </div>
+                <div class="box">
+                    <h5 style="color: #3cdbde;">Sketch Drawing</h5>
+                    <span class="percent">
+                        <div style="width: 100%;"></div>
+                    </span>
+                </div>
+                               <div class="box">
+                    <h5 style="color: #3cdbde;">Painting</h5>
+                    <span class="percent">
+                        <div style="width: 100%;"></div>
+                    </span>
+                </div>
+                
+            </div>
+<br><br><br>
+<img style="width: 100%;" src="icons/line.png"><br><br>
+<h3 class="w3-wide">Ενδιαφεροντα</h3>
+<p  style="text-transform: uppercase; color:gold;">interests</p><br>
+<p class="w3-justify">
+Ζωγραφική, Φωτογραφία, Επεξεργασία Εικόνας, Επεξεργασία Βίντεο, Μοντάζ, Ελεύθερο Σχέδιο<br><br>
+Painting, Photography, Photo Editing, Video Editing, Montage, Sketch Drawing
+</p><br><br><br> 
+<i>
+  <img style="width: 100%;" src="icons/line.png"><br><br>
+<h3 class="w3-wide">Ικανοτητες-Προσοντα</h3>
+<p  style="text-transform: uppercase; color:gold;">abilities</p><br>
+<p class="w3-justify">
+- Χρήση (Windows και Macintosh)<br>
+- Οργανοτικότητα<br>
+- Προσαρμοστικότητα<br>
+- Τυπικότητα<br>
+- Διαχείριση Χρόνου<br> 
+- Χρήση Εκτυπωτών Mitsubishi,DNP,Epson Stylus Photo T50,Epson L3251<br><br><br>
+- Can use (Windows and Macintosh)<br>
+- Organization<br>
+- Adaptation<br>
+- Typical<br>
+- Good time management<br> 
+- Can use Mitsubishi,DNP, Epson Stylus Photo T50, and Epson L3251 printers
+</p><i><br><br><br>
+
+
+
+
+
+  <img style="width: 100%;" src="icons/line.png"><br><br>
+<div class="about skills w3-wide"  style="font-family: play;" id="padding">
+                <h3>Εκπαιδευση</h3>
+                <p  style="text-transform: uppercase; color:gold;">education</p><br><br>
+
+                 <h5 style="font-size: 12px; color: #3cdbde;">Φωτογραφια και Οπτικοακουστικες Τεχνες στο ΠΑ.Δ.Α.</h5>
+                 <p  style="text-transform: uppercase; color: gold; font-size: 9px;">Photography and audiovisual arts in UNI.W.A.</p>
+                <div class="box">
+                  <h5><img src="icons/shat.png"></h5>
+                    <span class="percent">
+                        <div style="width: 75%;"></div>
+
+                      </span>
+                </div>
+                <h5 style="font-size: 12px; color: #3cdbde;">Συντηρηση Αρχαιοτητων και εργων Τεχνης στο <br> ΕΠΑ.Λ. Πετρουπολης</h5><p style="text-transform: uppercase; color: gold; font-size: 9px;">Conservation of ancient artworks in technical<br> high school of Petroupoli city</p>
+                                <div class="box">
+                                  <h5><img src="icons/shat.png"></h5>
+                    <span class="percent">
+                        <div style="width: 80%;"></div>
+                    </span>
+                </div>
+                 <h5 style="font-size: 12px; color: #3cdbde;">Γενικες γνωσεις σχεδιου απο Φροντιστηριο<br> Τσιγκρης και Μπελντεκος</h5> <p style="text-transform: uppercase; color: gold; font-size: 9px;">General Knowledge of Painting and Sketching <br>from Tsigris and Beltekos Schools</p>
+                <div class="box">
+                    <h5><img src="icons/shat.png"></h5>
+                    <span class="percent">
+
+                        <div style="width: 100%;"></div>
+                    </span>
+                </div>
+                      <h5 style="font-size: 12px; color: #3cdbde;">Γνωσεις Αγγλικων με επιπεδο B2</h5>
+                      <p style="text-transform: uppercase; color: gold; font-size: 9px;">English Knowledge level B2</p>
+                <div class="box">
+                  <h5><img src="icons/shat.png"></h5>
+                    <span class="percent">
+                        <div style="width: 70%;"></div>
+                    </span>
+                </div>
+                                    <h5 style="font-size: 12px; color: #3cdbde;">Γνωσεις Ιταλικων με επιπεδο Β1</h5>
+                                    <p style="text-transform: uppercase; color: gold; font-size: 9px;">Italian Knowledge level B1</p>
+                 <div class="box">
+                               <h5><img src="icons/shat.png"></h5>
+                    <span class="percent">
+                        <div style="width: 65%;"></div>
+                    </span>
+                </div>
+<i>
+  <br><br><br><br><br><br>
+
+ 
+  <img style="width: 100%;" src="icons/line.png"><br><br>
+  <h5  class="w3-justify w3-center" style=" background: transparent; color:#3cdbde; border-radius: 0; padding: 30px;" id="black&white">Θεμα: Ασπρομαυρο<p style="text-transform: uppercase; color: gold; font-size: 9px;">subject: black and white</p></h5> 
+  
+  <div class="full-img" id="fullImgBox">
+    <img src="bw/1.png" id="fullImg">
+    <span onclick="closeFullImg()"><img src="icons/x.png"></span>
+  </div>
+  <div class="img-gallery">
+    <a><img src="old/bw/1.png" onclick="openFullImg(this.src)">Αναγέννηση<p style="text-transform: uppercase; color: gold; font-size: 9px;">rebirth</p></a>
+    <a><img src="old/bw/2.png" onclick="openFullImg(this.src)">Ρύπανση<p style="text-transform: uppercase; color: gold; font-size: 9px;">pollution</p></a>
+    <a><img src="old/bw/3.png" onclick="openFullImg(this.src)">Τρόμος<p style="text-transform: uppercase; color: gold; font-size: 9px;">horror</p></a>
+    <a><img src="old/bw/4.png" onclick="openFullImg(this.src)">Ψάχνω<p style="text-transform: uppercase; color: gold; font-size: 9px;">searching</p></a>
+    <a><img src="old/bw/5.png" onclick="openFullImg(this.src)">Φροντίδα<p style="text-transform: uppercase; color: gold; font-size: 9px;">care</p></a>
+    <a><img src="old/bw/6.png" onclick="openFullImg(this.src)">Ιστορία<p style="text-transform: uppercase; color: gold; font-size: 9px;">history</p></a>
+    <a><img src="old/bw/7.png" onclick="openFullImg(this.src)">Έξοδος<p style="text-transform: uppercase; color: gold; font-size: 9px;">escape</p></a>
+    <a><img src="old/bw/8.png" onclick="openFullImg(this.src)">Αδιέξοδος<p style="text-transform: uppercase; color: gold; font-size: 9px;">impasse</p></a>
+    <a><img src="old/bw/9.png" onclick="openFullImg(this.src)">Μην τα παρατάς!<p style="text-transform: uppercase; color: gold; font-size: 9px;">never give up!</p></a>
+  </div>
+  <br><br><br><br><br><br>
+  <img style="width: 100%;" src="icons/line.png"><br><br>
+  <h5 class="w3-justify w3-center" style="background: transparent; color:#3cdbde; border-radius: 0; padding: 30px;" id="nature">Θεμα: Φυση<p style="text-transform: uppercase; color: gold; font-size: 9px;">subject: nature</p></h5><br><br>
+  <div class="full-img" id="fullImgBox">
+    <img src="bw/1.png" id="fullImg">
+    <span onclick="closeFullImg()"><img src="icons/x.png"></span>
+  </div>
+  <div class="img-gallery">
+    <a><img src="old/nt/1.jpg" onclick="openFullImg(this.src)">Κυριαρχία<p style="text-transform: uppercase; color: gold; font-size: 9px;">domination</p></a>
+    <a><img src="old/nt/2.jpg" onclick="openFullImg(this.src)">Προστασία<p style="text-transform: uppercase; color: gold; font-size: 9px;">protection</p></a>
+    <a><img src="old/nt/3.jpg" onclick="openFullImg(this.src)">Βαδίζω<p style="text-transform: uppercase; color: gold; font-size: 9px;">walking</p></a>
+    <a><img src="old/nt/4.jpg" onclick="openFullImg(this.src)">Εμπόδιο<p style="text-transform: uppercase; color: gold; font-size: 9px;">obstacle</p></a>
+    <a><img src="old/nt/5.jpg" onclick="openFullImg(this.src)">Μπέρδεμα<p style="text-transform: uppercase; color: gold; font-size: 9px;">confusing</p></a>
+    <a><img src="old/nt/6.jpg" onclick="openFullImg(this.src)">Άγριο<p style="text-transform: uppercase; color: gold; font-size: 9px;">wild</p></a>
+    <a><img src="old/nt/7.jpg" onclick="openFullImg(this.src)">Απέραντο<p style="text-transform: uppercase; color: gold; font-size: 9px;">infinite</p></a>
+    <a><img src="old/nt/8.jpg" onclick="openFullImg(this.src)">Αναζητώ<p style="text-transform: uppercase; color: gold; font-size: 9px;">search for</p></a>
+  </div>
+  <br><br><br><br><br><br>
+  <img style="width: 100%;" src="icons/line.png"><br><br>
+  <h5 class="w3-justify w3-center" style="background: transparent; color:#3cdbde; border-radius: 0; padding: 30px;" id="mstr">Θεμα: Μυστηριο<p style="text-transform: uppercase; color: gold; font-size: 9px;">subject: mystery</p></h5> 
+  
+  <div class="full-img" id="fullImgBox">
+    <img src="bw/1.png" id="fullImg">
+    <span onclick="closeFullImg()"><img src="icons/x.png"></span>
+  </div>
+  <div class="img-gallery">
+    <a><img src="old/mstr/1.png" onclick="openFullImg(this.src)">Ελπίδα<p style="text-transform: uppercase; color: gold; font-size: 9px;">hope</p></a>
+    <a><img src="old/mstr/2.png" onclick="openFullImg(this.src)">Περιέργεια<p style="text-transform: uppercase; color: gold; font-size: 9px;">Curiosity</p></a>
+    <a><img src="old/mstr/3.png" onclick="openFullImg(this.src)">Τύφλωση<p style="text-transform: uppercase; color: gold; font-size: 9px;">blindness</p></a>
+    <a><img src="old/mstr/4.png" onclick="openFullImg(this.src)">Οξυγόνο<p style="text-transform: uppercase; color: gold; font-size: 9px;">Oxygen</p></a>
+    <a><img src="old/mstr/5.png" onclick="openFullImg(this.src)">Λαϊκή Αγορά<p style="text-transform: uppercase; color: gold; font-size: 9px;">Shopping District</p></a>
+    <a><img src="old/mstr/6.png" onclick="openFullImg(this.src)">Πτώση<p style="text-transform: uppercase; color: gold; font-size: 9px;">fall</p></a>
+    <a><img src="old/mstr/7.png" onclick="openFullImg(this.src)">Περιμένοντας<p style="text-transform: uppercase; color: gold; font-size: 9px;">waiting</p></a>
+    <a><img src="old/mstr/8.png" onclick="openFullImg(this.src)">Μοναξιά<p style="text-transform: uppercase; color: gold; font-size: 9px;">lonely</p></a>
+  </div>
+  <br><br><br><br><br><br>
+  <img style="width: 100%;" src="icons/line.png">
+  <br><br>
+  <h5 class="w3-justify w3-center" style="background: transparent; color:#3cdbde; border-radius: 0; padding: 30px;" id="gnrl">Θεμα: Διαφορα<p style="text-transform: uppercase; color: gold; font-size: 9px;">subject: various images</p></h5>
+  
+  <div class="full-img" id="fullImgBox">
+    <img src="bw/1.png" id="fullImg">
+    <span onclick="closeFullImg()"><img src="icons/x.png"></span>
+  </div>
+  <div class="img-gallery">
+    <a><img src="old/gnk/1.jpg" onclick="openFullImg(this.src)">Ελευθερία<p style="text-transform: uppercase; color: gold; font-size: 9px;">freedom</p></a>
+    <a><img src="old/gnk/2.jpg" onclick="openFullImg(this.src)">Μετρό Μοναστηράκι<p style="text-transform: uppercase; color: gold; font-size: 9px;">monastiraki station</p></a>
+    <a><img src="old/gnk/3.jpg" onclick="openFullImg(this.src)">Κλειδωμένη Αγάπη<p style="text-transform: uppercase; color: gold; font-size: 9px;">Forbidden love</p></a>
+    <a><img src="old/gnk/4.jpg" onclick="openFullImg(this.src)">Όμορφο Παρελθόν<p style="text-transform: uppercase; color: gold; font-size: 9px;">Beautiful past</p></a>
+    <a><img src="old/gnk/5.jpg" onclick="openFullImg(this.src)">Πέτα<p style="text-transform: uppercase; color: gold; font-size: 9px;">fly away</p></a>
+    <a><img src="old/gnk/7.jpg" onclick="openFullImg(this.src)">Χωρίς Επιστροφή<p style="text-transform: uppercase; color: gold; font-size: 9px;">without returning</p></a>
+    <a><img src="old/gnk/11.jpg" onclick="openFullImg(this.src)">Βιολετοκατάσταση<p style="text-transform: uppercase; color: gold; font-size: 9px;">violet vibes</p></a>
+    <a><img src="old/gnk/16.jpg" onclick="openFullImg(this.src)">Μπλεδοκατάσταση<p style="text-transform: uppercase; color: gold; font-size: 9px;">blue vibes</p></a>
+    <a><img src="old/gnk/20.jpg" onclick="openFullImg(this.src)">Κιτρινοκατάσταση<p style="text-transform: uppercase; color: gold; font-size: 9px;">yellow vibes</p></a>
+    <a><img src="old/gnk/12.jpg" onclick="openFullImg(this.src)">Ερωτοβασίλεμα<p style="text-transform: uppercase; color: gold; font-size: 9px;">beautiful sunset</p></a>
+    <a><img src="old/gnk/14.jpg" onclick="openFullImg(this.src)">Τι κοιτάς;<p style="text-transform: uppercase; color: gold; font-size: 9px;">what you look?</p></a>
+    <a><img src="old/gnk/15.jpg" onclick="openFullImg(this.src)">Δικό μου δικό μου<p style="text-transform: uppercase; color: gold; font-size: 9px;">it's mine, mine!</p></a>
+    <a><img src="old/gnk/17.jpg" onclick="openFullImg(this.src)">Λύτρωση<p style="text-transform: uppercase; color: gold; font-size: 9px;">redemption</p></a>
+    <a><img src="old/gnk/22.jpg" onclick="openFullImg(this.src)">Οικογένεια<p style="text-transform: uppercase; color: gold; font-size: 9px;">family</p></a>
+    <a><img src="old/gnk/24.jpg" onclick="openFullImg(this.src)">Γνωριμία & ότι βγει<p style="text-transform: uppercase; color: gold; font-size: 9px;">acquaintance & wtever comes up!</p></a>
+    <a><img src="old/gnk/26.jpg" onclick="openFullImg(this.src)">Θεϊκή παρηγοριά<p style="text-transform: uppercase; color: gold; font-size: 9px;">divine consolation</p></a>
+    <a><img src="old/gnk/29.jpg" onclick="openFullImg(this.src)">Φώτα Πόλης & Έρως<p style="text-transform: uppercase; color: gold; font-size: 9px;">city lights & love</p></a>
+    <a><img src="old/gnk/31.png" onclick="openFullImg(this.src)">Με το κεφάλι ψηλά<p style="text-transform: uppercase; color: gold; font-size: 9px;">with head up</p></a>
+    <a><img src="old/gnk/32.png" onclick="openFullImg(this.src)">Αυτό είναι δικό μου!<p style="text-transform: uppercase; color: gold; font-size: 9px;">it belongs to me!</p></a>
+    <a><img src="old/gnk/33.png" onclick="openFullImg(this.src)">Μπύρα και Παρέα<p style="text-transform: uppercase; color: gold; font-size: 9px;">beer and companionship</p></a>
+    <a><img src="old/gnk/34.png" onclick="openFullImg(this.src)">Έρως ανίκατε μάχαν<p style="text-transform: uppercase; color: gold; font-size: 9px;">undefeated love</p></a>
+    <a><img src="old/gnk/35.png" onclick="openFullImg(this.src)">Ήλιε μη φύγεις<p style="text-transform: uppercase; color: gold; font-size: 9px;">plz sun don't go!</p></a>
+    <a><img src="old/gnk/37.png" onclick="openFullImg(this.src)">Αφήστε με εκεί!<p style="text-transform: uppercase; color: gold; font-size: 9px;">leave me there</p></a>
+    <a><img src="old/gnk/40.png" onclick="openFullImg(this.src)">Το δεύτερο μου σπίτι<p style="text-transform: uppercase; color: gold; font-size: 9px;">my second home</p></a>
+    <a><img src="old/gnk/41.png" onclick="openFullImg(this.src)">Ή τώρα ή ποτέ!<p style="text-transform: uppercase; color: gold; font-size: 9px;">now or never</p></a>
+    <a><img src="old/gnk/42.png" onclick="openFullImg(this.src)">Παπάκι το παπί<p style="text-transform: uppercase; color: gold; font-size: 9px;">a cute duck</p></a>
+    <a><img src="old/gnk/10.jpg" onclick="openFullImg(this.src)">Γραφείο και Παρέα<p style="text-transform: uppercase; color: gold; font-size: 9px;">office and companionship</p></a>
+    <a><img src="old/gnk/13.jpg" onclick="openFullImg(this.src)">Μόνο μαζί σου<p style="text-transform: uppercase; color: gold; font-size: 9px;">just be only with you</p></a>
+    <a><img src="old/gnk/19.jpg" onclick="openFullImg(this.src)">Μαντεία Ρόδου<p style="text-transform: uppercase; color: gold; font-size: 9px;">rose Mancer</p></a>
+    <a><img src="old/gnk/39.png" onclick="openFullImg(this.src)">Περιμένω πολύ!<p style="text-transform: uppercase; color: gold; font-size: 9px;">such a wait!</p></a>
+    <a><img src="old/gnk/38.png" onclick="openFullImg(this.src)">Δρόμος με τις λεύκες<p style="text-transform: uppercase; color: gold; font-size: 9px;">the elm street</p></a>
+    <a><img src="old/gnk/36.png" onclick="openFullImg(this.src)">Καλή Καρδιά<p style="text-transform: uppercase; color: gold; font-size: 9px;">good heart</p></a>
+    <a><img src="old/gnk/18.jpg" onclick="openFullImg(this.src)">Ντε ζα βου...<p style="text-transform: uppercase; color: gold; font-size: 9px;">de ja vu</p></a>
+    <a><img src="old/gnk/25.jpg" onclick="openFullImg(this.src)">Από την...<p style="text-transform: uppercase; color: gold; font-size: 9px;">from...</p></a>
+    <a><img src="old/gnk/28.jpg" onclick="openFullImg(this.src)">Αυτοσχέδια...<p style="text-transform: uppercase; color: gold; font-size: 9px;">impromptu...</p></a>
+    <a><img src="old/gnk/30.jpg" onclick="openFullImg(this.src)">...Μηχανή Πίνχολ<p style="text-transform: uppercase; color: gold; font-size: 9px;">pinhole camera</p></a>
+    <a><img src="old/gnk/27.jpg" onclick="openFullImg(this.src)">Δέντρο της Ζωής<p style="text-transform: uppercase; color: gold; font-size: 9px;">the tree of life</p></a>
+    <a><img src="old/gnk/9.jpg" onclick="openFullImg(this.src)">Ξεραμένη Αγάπη<p style="text-transform: uppercase; color: gold; font-size: 9px;">dead love</p></a>
+    <a><img src="old/gnk/8.jpg" onclick="openFullImg(this.src)">Βόλτα και Βόλτα<p style="text-transform: uppercase; color: gold; font-size: 9px;">keep walking</p></a>
+    <a><img src="old/gnk/21.jpg" onclick="openFullImg(this.src)">Χαμόγελο Ψυχής<p style="text-transform: uppercase; color: gold; font-size: 9px;">spiritual smile</p></a>
+
+</div><br>
+<img style="width: 100%;" src="icons/line.png">
+<br><br>
+
+
+
+  <h5 class="w3-justify w3-center" style="background: transparent; color:#3cdbde; border-radius: 0; padding: 30px;" id="stopm">διακοπτομενο βιντεο<p style="text-transform: uppercase; color: gold; font-size: 9px;">stop motion</p></h5><br>
+
+
+<video width="320" height="240" poster="old/video/coffee.jpg" controls>
+  <source src="old/video/coffee.mp4" type="video/mp4">
+Το πρόγραμμα περιήγησής σας δεν υποστηρίζει την ετικέτα βίντεο/ your web browser does not support this video tag.
+</video>  <br><br>
+<p style="text-transform: uppercase; color: #3cdbde; font-size: 12px;">Διαφημιση Melitta - Φιλτρακια για μηχανη του καφε</p>
+<p style="text-transform: uppercase; color: gold; font-size: 9px;">Melitta Advertisement - filters for the coffee machine</p>
+
+    <br><br>
+
+
+        <br><br><img style="width: 100%;" src="icons/line.png"><br><br>
+    
+
+
+<!-- Footer -->
+<footer class="w3-container w3-center w3-opacity w3-medium" style="font-family: play; background-color: transparent; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;">
+  <p   style=" color:#3cdbde; play;  text-transform: none; font-size: 12px; ">Επεξεργασία και Ανάπτυξη/ Processing and Development HTML-CSS<br>Κωνσταντίνος Παναγιώτης Ζεϊμπέκης/ Constantinos Panayiotis Zeybekis</p>
+  <p style=" color:#3cdbde; play;  text-transform: none; font-size: 12px;" >Πρότυπο Σελίδας από/ Template from<a style="font-family: play;" href="https://www.w3schools.com/w3css/default.asp" target="_blank"> w3.css</a></p><br>
+  <p style=" color:#3cdbde; play;  text-transform: none; font-size: 12px;" >Old version is available for 21 languages, click <a href="old/old.index.html" style="background-color: #3cdbde; color: #280242; border-radius: 0;">here</a> to visit</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</div>
+
+</div>
+<script>
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+
+ function openFullImg(pic){
+  fullImgBox.style.display = "flex";
+  fullImg.src = pic;
+ }
+ function closeFullImg(){
+  fullImgBox.style.display = "none";
+
+ }
+
+
+</script>
+
+
+
+</body>
+</html>
