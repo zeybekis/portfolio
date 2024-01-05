@@ -147,9 +147,9 @@ button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
 }
 
 p.w3-justify{
-    background-color: #f4edc8f4;
+    background-color: #c7fad2;
     color:#280242; 
-    border-radius: 10px; 
+    border-radius: 0; 
     padding: 30px;"
 }
 p.w3-button{
@@ -307,7 +307,7 @@ div.videocont{
     position: relative;
     width: 100%;
     height: 10%;
-    background: rgb(81, 77, 5);
+    background: #c7fad2;
     border-radius: 10px;
 }
 .about.skills .box .percent div
@@ -316,7 +316,7 @@ div.videocont{
     top: 0;
     left: 0;
     height: 100%;
-    background: rgb(52, 240, 143);
+    background: #037f1e;
 }
 /* The navigation menu */
 .navbar {
