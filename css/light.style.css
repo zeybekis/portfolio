@@ -24,6 +24,7 @@ a.w3-bar-item.w3-button.w3-padding-large img{
 
 div.w3-dropdown-content.w3-bar-block.w3-border. .w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
     text-transform: uppercase;
+    color: #180128;
     
 
 }
@@ -39,13 +40,19 @@ button.w3-button.w3-section.w3-right{
     border-radius: 10px; 
     padding: 30px;"
 }
+button.w3-button{
+    width: 30%;
+}
 h3.w3-wide{
     font-style: normal;
 }
 
 div.w3-top{
       text-transform: uppercase;
+      color: #180128;
 }
+
+
 div.w3-content{
     -webkit-touch-callout: none;
 }
@@ -74,7 +81,7 @@ body {font-family: "Play", sans-serif}
 
 
 a.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
-          color: #154849;
+          color: #1d1830;
 }
 
 
@@ -140,7 +147,7 @@ button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
 }
 
 p.w3-justify{
-    background-color: #70fae0f4;
+    background-color: #f4edc8f4;
     color:#280242; 
     border-radius: 10px; 
     padding: 30px;"
@@ -300,7 +307,7 @@ div.videocont{
     position: relative;
     width: 100%;
     height: 10%;
-    background: black;
+    background: rgb(81, 77, 5);
     border-radius: 10px;
 }
 .about.skills .box .percent div
@@ -309,7 +316,7 @@ div.videocont{
     top: 0;
     left: 0;
     height: 100%;
-    background: gold;
+    background: rgb(52, 240, 143);
 }
 /* The navigation menu */
 .navbar {
@@ -375,7 +382,7 @@ div.videocont{
   display: block;
 }
 div.w3-dropdown-content.w3-bar-block.w3-border{
-    background-color: rgba(250, 245, 144, 0.507);
+    background-color: rgba(244, 237, 200, 0.911);
    color: white;
 }
 

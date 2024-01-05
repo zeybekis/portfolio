@@ -32,6 +32,9 @@ button.w3-button.w3-section.w3-right{
     border-radius: 10px; 
     padding: 30px;"
 }
+button.w3-button{
+    width: 30%;
+}
 h3.w3-wide{
     font-style: normal;
 }
@@ -411,7 +414,7 @@ div.desc {
 .full-img{
   width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(58, 5, 108, 0.788);
   position: fixed;
   top: 0;
   left: 0;
