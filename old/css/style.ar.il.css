@@ -71,13 +71,13 @@ a.w3-button{
       align-items: right;
 }
 a.w3-button.w3-center{
-    background-color: transparent;
+    background-color: #280242;
         text-transform: uppercase;
     color:#3cdbde;
       text-align: right;
 }
 a.w3-button.w3-center hover{
-    background-color: transparent;
+    background-color: #280242;
         text-transform: uppercase;
     color:#3cdbde;
       text-align: right;
@@ -166,7 +166,7 @@ div.w3-col.m6.w3-large.w3-margin-bottom{
         align-items: right;
 }
 button.w3-bar-item.w3-button.w3-padding-large.w3-hide-small{
-    background-color: transparent;
+    background-color: #280242;
 }
 
 p.w3-justify{
@@ -370,7 +370,7 @@ div.videocont{
 /* The navigation menu */
 .navbar {
   overflow: hidden;
-  background-color: transparent;
+  background-color: #280242;
 }
 
 /* Navigation links */
@@ -516,7 +516,7 @@ div.desc {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
     text-align: right;
 }
@@ -536,7 +536,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -554,7 +554,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -569,7 +569,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -583,7 +583,7 @@ img {
 
 div.w3-content{
 
- background-color: transparent;
+ background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -598,7 +598,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -614,7 +614,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -630,7 +630,7 @@ img {
 
 div.w3-content{
 
- background-color: transparent;
+ background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -645,7 +645,7 @@ img {
 
 div.w3-content{
 
- background-color: transparent;
+ background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -662,7 +662,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -677,7 +677,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -693,7 +693,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -709,7 +709,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -723,7 +723,7 @@ img {
 
 div.w3-content{
 
-  background-color: transparent;
+  background-color: #280242;
     -webkit-touch-callout: none;
 }
 div#band.w3-container.w3-content.w3-center.w3-padding-64{
@@ -732,6 +732,29 @@ div#band.w3-container.w3-content.w3-center.w3-padding-64{
 img {
     -webkit-touch-callout: none;
 }
+@media (max-width: 800px){
+
+  div.w3-content{
+  
+    background-color: #280242;
+      -webkit-touch-callout: none;
+  }
+  div#band.w3-container.w3-content.w3-center.w3-padding-64{
+      background-color: #16042b;
+  }
+  img {
+      -webkit-touch-callout: none;
+  }
+  }
+  @media (max-width: 1498px){
+  
+      div.w3-content{
+      
+        background-color: #280242;
+          -webkit-touch-callout: none;
+      }
+  
+  }
 }
 
 
