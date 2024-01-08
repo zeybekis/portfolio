@@ -5,10 +5,12 @@
 box-sizing:border-box;
 font-family: play;
 -webkit-touch-callout: none;
+text-transform: uppercase;
+
 }
 
 body{
-    background-image: linear-gradient(rgb(4, 4, 93), rgb(54, 2, 54));
+    background-image: linear-gradient(grey, black);
     max-width:100%; 
     max-height: 100%; 
     background-repeat: no-repeat; 
@@ -58,7 +60,7 @@ body{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-image: linear-gradient(rgb(4, 4, 93), rgb(54, 2, 54));
+  background-image: linear-gradient(black, white);
 }
 
 /* Caption text */
@@ -71,6 +73,7 @@ body{
   width: 100%;
   text-align: center;
   -webkit-touch-callout: none;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* Number text (1/3 etc) */
@@ -131,11 +134,11 @@ body{
   .topnav a {
     float: left;
     display: block;
-    color: #3cdbde;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
     -webkit-touch-callout: none;
   }
   
@@ -148,7 +151,7 @@ body{
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #3cdbde;
+    background-color: #ffffff;
     color: black;
     -webkit-touch-callout: none;
   }
@@ -169,7 +172,7 @@ body{
       -webkit-touch-callout: none;
     }
     body{
-        background-image: linear-gradient(rgb(4, 4, 93), rgb(54, 2, 54));
+        background-image: linear-gradient(black, white);
         -webkit-touch-callout: none;
     }
 
@@ -178,7 +181,7 @@ body{
 @media screen and (max-width: 1193px) {
 
     body{
-    background-image: linear-gradient(rgb(4, 4, 93), rgb(54, 2, 54));
+    background-image: linear-gradient(black, white);
     -webkit-touch-callout: none;
     }
 }
@@ -186,7 +189,7 @@ body{
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
     body{
-      background-image: linear-gradient(rgb(4, 4, 93), rgb(54, 2, 54));
+      background-image: linear-gradient(black, white);
       -webkit-touch-callout: none;
       }
     
