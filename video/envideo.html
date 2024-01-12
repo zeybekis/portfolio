@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" onContextMenu="return false;">
+<head>
+<title>Photozeybekis  | Video</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="x-icon" href="../icons/profilepic.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../gall/gnk.css">
+<style>
+  *{
+    object-fit: fill;
+  }
+  video{
+border:4px solid blueviolet;
+background: transparent url('../old/video/coffee2.jpg') 50% 50% / cover no-repeat ;
+}
+video[poster]{
+height:100%;
+width:100%;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+
+<div class="topnav" id="myTopnav">
+
+   <!--tor mobiles-->
+  
+   <a href="#home" class="active w3-hide-medium w3-hide-large">stop motion</a>
+   <a href="../gall/engnk.html" class="w3-hide-medium w3-hide-large">photo gallery</a>
+   <a href="../enlight.index.html" class="w3-hide-medium w3-hide-large">go back to homepage (light mode)</a>
+   <a href="../enindex.html" class="w3-hide-medium w3-hide-large">go back to homepage (dark mode)</a>
+   <a href="video.html" class="w3-hide-medium w3-hide-large">για ελληνικα πατα εδω</a>
+
+
+  <!-- for desktop -->
+
+  <a href="#home" class="active w3-hide-medium w3-hide-small">stop motion</a>
+  <a href="../gall/engnk.html" class="w3-hide-medium w3-hide-small" >photo gallery</a>
+  <a href="../light.index.html" class="w3-hide-medium w3-hide-small" >home <img style="margin-top: -2px;" src="../gall/icons/gnksundesk.png"></a>
+  <a href="../index.html" class="w3-hide-medium w3-hide-small" >home <img style="margin-top: -3px;" src="../gall/icons/gnkmoondesk.png"></a>
+  <a href="video.html" class="w3-right w3-hide-small w3-hide-medium">EL</a> 
+
+
+  <!--tor tablets-->
+
+  <a href="#home" class="active w3-hide-large w3-hide-small" style="font-size: 9px;">stop motion</a>
+  <a href="../gall/engnk.html" class="w3-hide-large w3-hide-small" style="font-size: 7px;">photo gallery</a>
+  <a href="../light.index.html" class="w3-hide-large w3-hide-small" style="font-size: 7px;">home <img style="margin-top: -1px;" src="../gall/icons/gnksuntabs.png"></a>
+  <a href="../index.html" class="w3-hide-large w3-hide-small" style="font-size: 7px;">home <img style="margin-top: -2px;" src="../gall/icons/gnkmoontabs.png"></a>
+  <a href="video.html" class="w3-right w3-hide-small w3-hide-large" style="font-size: 7px;">EL</a>
+
+
+
+
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+    <!-- Slideshow container -->
+
+<div class="slideshow-container">
+
+
+
+    
+
+    <video width="100%" height="100%" poster="../old/video/coffee2.jpg" controls>
+      <source src="../old/video/coffee.mp4" type="video/mp4">
+      <source src="../old/video/coffee.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+    <p class="w3-center" style="text-transform: uppercase; color: hotpink; font-size: 12px;">Melitta Advertisement - Filters for the coffee machine</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+    
+
+  <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+  </script>
+</body>
+</html>

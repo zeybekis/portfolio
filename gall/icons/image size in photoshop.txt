@@ -1,0 +1,12 @@
+<========= DESKTOP ===========>
+
+
+WIDTH: 0,58 
+HEIGHT: 0,53 OR AUTO
+
+
+<========= TABLETS ===========>
+
+
+WIDTH: 0,26 
+HEIGHT: 0,24 OR AUTO
