@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'play', Times New Roman;
  
 }
 body{
@@ -12,7 +12,13 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'play', Times New Roman;
+    background-image: url('../images/backround image.png'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100% 100%; 
 }
+
 
 .container
 
@@ -26,14 +32,16 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    font-family: 'play', Times New Roman;
 }
 
 .container .left_Side
 
 {
     position: relative;
-    background: #003147;
+    background: rgb(25, 2, 73);
     padding: 40px;
+    font-family: 'play', Times New Roman;
 }
 
 .profileText 
@@ -44,6 +52,7 @@ flex-direction: column;
 align-items: center;
 padding-bottom: 20px;
 border-bottom: 1px solid rgba(255,255,255,0.2);
+font-family: 'play', Times New Roman;
 }
 
 .profileText .imgBx 
@@ -64,6 +73,7 @@ left: 0;
 width: 100%;
 height: 100%;
 object-fit: cover;
+font-family: 'play', Times New Roman;
 }
 .profileText h2
 
@@ -75,16 +85,19 @@ text-transform: uppercase;
 text-align: center;
 font-weight: 600;
 line-height: 1.4em;
+font-family: 'play', Times New Roman;
 }
 
 .profileText h2 span
 {
 font-size: 0.8em;
 font-weight: 300;
+font-family: 'play', Times New Roman;
 }
 .contactInfo
 {
     padding-top: 40px;
+    font-family: 'play', Times New Roman;
 
 }
 .title
@@ -94,10 +107,12 @@ font-weight: 300;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    font-family: 'play', Times New Roman;
 }
 .contactInfo ul
 {
     position: relative;
+    font-family: 'play', Times New Roman;
 }
 
 .contactInfo ul li
@@ -106,6 +121,7 @@ font-weight: 300;
     position: relative;
     margin: 10px 0;
     cursor: pointer;
+    font-family: 'play', Times New Roman;
 }
 
 .contactInfo ul li .icon
@@ -113,7 +129,8 @@ font-weight: 300;
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
+    color: #3cdbde;
+    font-family: 'play', Times New Roman;
 
 }
 
@@ -121,29 +138,34 @@ font-weight: 300;
 {
     color: #fff;
     font-weight: 300;
+    font-family: 'play', Times New Roman;
 }
 
 .contactInfo.education li
 {
 margin-bottom: 15px;
+font-family: 'play', Times New Roman;
 }
 
 .contactInfo.education h5
 {
-color: #03a9f4;
+color: #3cdbde;
 font-weight: 500;
+font-family: 'play', Times New Roman;
 }
 
 .contactInfo.education h4:nth-child(2)
 {
 color: #fff;
 font-weight: 500;
+font-family: 'play', Times New Roman;
 }
 
 .contactInfo.education h4
 {
 color: #fff;
 font-weight: 300;
+font-family: 'play', Times New Roman;
 }
 
 .contactInfo.language .percent
@@ -154,6 +176,7 @@ height: 6px;
 background: #081921;
 display: block;
 margin-top: 5px;
+font-family: 'play', Times New Roman;
 }
 
 .contactInfo.language .percent div
@@ -162,15 +185,17 @@ position: absolute;
 top: 0;
 left: 0;
 height: 100%;
-background: #03a9f4;
+background: #3cdbde;
+font-family: 'play', Times New Roman;
 }
 
 .container .right_Side
 
 {
     position: relative;
-    background: #fff;
+    background: #cbb9fe;
     padding: 40px;
+    font-family: 'play', Times New Roman;
 }
 .about
 {
@@ -182,36 +207,41 @@ background: #03a9f4;
 }
 .title2
 {
-    color: #003147;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    font-family: 'play', Times New Roman;
 }
 p
 {
-color: #333;
+color: #000000;
 }
 .about .box
 {
     display: flex;
     flex-direction: row;
     margin: 20px 0;
+    font-family: 'play', Times New Roman;
 }
 .about .box .year_company
 {
     min-width: 150px;
+    font-family: 'play', Times New Roman;
 }
 .about .box .year_company h5
 {
     text-transform: uppercase;
-    color: #848c90;
+    color: rgb(25, 2, 73);
     font-weight: 600;
+    font-family: 'play', Times New Roman;
 }
 .about .box .text h4
 {
 text-transform: uppercase;
-color: #2a7da2;
+color: rgb(55, 0, 174);
 font-size: 16px;
+font-family: 'play', Times New Roman;
 }
 .skills .box
 {
@@ -221,12 +251,14 @@ font-size: 16px;
     grid-template-columns: 150px 1fr;
     justify-content: center;
     align-items: center;
+    font-family: 'play', Times New Roman;
 }
 .skills .box h4
 {
     text-transform: uppercase;
-    color: #848c99;
+    color: rgb(25, 2, 73);
     font-weight: 500;
+    font-family: 'play', Times New Roman;
 }
 .skills .box .percent
 {
@@ -234,6 +266,7 @@ font-size: 16px;
     width: 100%;
     height: 10px;
     background: #f0f0f0;
+    font-family: 'play', Times New Roman;
 }
 .skills .box .percent div
 {
@@ -241,12 +274,14 @@ font-size: 16px;
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: rgb(55, 0, 174);
+    font-family: 'play', Times New Roman;
 }
 .interest ul
 {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    font-family: 'play', Times New Roman;
 }
 .interest ul li
 {
@@ -254,12 +289,14 @@ font-size: 16px;
     color: #333;
     font-weight: 500;
     margin: 10px 0;
+    font-family: 'play', Times New Roman;
 }
 .interest ul li .fa
 {
     color: #03a9f4;
     font-size: 18px;
     width: 20px;
+    font-family: 'play', Times New Roman;
 }
 
 @media (max-width: 1000px)
